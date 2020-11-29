@@ -33,7 +33,7 @@ class OdometryToTF : public rclcpp::Node
 {
 public:
   OdometryToTF(std::shared_ptr<rclcpp::Node> brNode_): Node("odemetry_to_tf") {
-    std::shared_ptr<rclcpp::Subscription<nav_msgs::msg::Odometry>> odometrySubscription_ = this->create_subscription<nav_msgs::msg::Odometry>("/model/marble_husky_sensor_config_2/odometry",
+    odometrySubscription_ = this->create_subscription<nav_msgs::msg::Odometry>("/model/marble_husky_sensor_config_2/odometry",
       rclcpp::QoS(10), std::bind(&OdometryToTF::topic_callback, this, std::placeholders::_1));
     this->brNode = brNode_;
     RCLCPP_INFO(this->get_logger(), "test: ", "hi");
@@ -63,6 +63,7 @@ private:
     br.sendTransform(transformStamped);
   }
   std::shared_ptr<rclcpp::Node> brNode;
+  std::shared_ptr<rclcpp::Subscription<nav_msgs::msg::Odometry>> odometrySubscription_;
   /*rclcpp::TimerBase::SharedPtr timer_;*/
 };
 
