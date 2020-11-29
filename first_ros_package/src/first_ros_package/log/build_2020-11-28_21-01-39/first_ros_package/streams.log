@@ -1,0 +1,30 @@
+[0.012s] Invoking command in '/home/propp/Independent_Study/first_ros_package/src/first_ros_package/build/first_ros_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/propp/Independent_Study/src/Test_Ros/install/my_package /usr/bin/cmake --build /home/propp/Independent_Study/first_ros_package/src/first_ros_package/build/first_ros_package -- -j12 -l12
+[0.044s] [35m[1mScanning dependencies of target talker[0m
+[0.065s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[0.949s] [01m[K/home/propp/Independent_Study/first_ros_package/src/first_ros_package/src/publisher_member_function.cpp:[m[K In constructor ‘[01m[KOdometryToTF::OdometryToTF()[m[K’:
+[0.949s] [01m[K/home/propp/Independent_Study/first_ros_package/src/first_ros_package/src/publisher_member_function.cpp:35:89:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K=[m[K’ token
+[0.949s]    35 |     std::shared_ptr<rclcpp::Subscription<std_msgs::msg::String>> odometrySubscription_; [01;31m[K=[m[K this->create_subscription<std_msgs::msg::String>("/model/marble_husky_sensor_config_2/odometry",
+[0.949s]       |                                                                                         [01;31m[K^[m[K
+[0.961s] [01m[K/home/propp/Independent_Study/first_ros_package/src/first_ros_package/src/publisher_member_function.cpp:[m[K In static member function ‘[01m[Kstatic void OdometryToTF::topic_callback(std::shared_ptr<const std_msgs::msg::String_<std::allocator<void> > >)[m[K’:
+[0.961s] [01m[K/home/propp/Independent_Study/first_ros_package/src/first_ros_package/src/publisher_member_function.cpp:49:53:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = const struct std_msgs::msg::String_<std::allocator<void> >[m[K’ {aka ‘[01m[Kconst struct std_msgs::msg::String_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpose[m[K’
+[0.961s]    49 |     transformStamped.transform.translation.x = msg->[01;31m[Kpose[m[K.pose.position.x;
+[0.961s]       |                                                     [01;31m[K^~~~[m[K
+[0.961s] [01m[K/home/propp/Independent_Study/first_ros_package/src/first_ros_package/src/publisher_member_function.cpp:50:53:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = const struct std_msgs::msg::String_<std::allocator<void> >[m[K’ {aka ‘[01m[Kconst struct std_msgs::msg::String_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpose[m[K’
+[0.962s]    50 |     transformStamped.transform.translation.y = msg->[01;31m[Kpose[m[K.pose.position.y;
+[0.962s]       |                                                     [01;31m[K^~~~[m[K
+[0.962s] [01m[K/home/propp/Independent_Study/first_ros_package/src/first_ros_package/src/publisher_member_function.cpp:52:50:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = const struct std_msgs::msg::String_<std::allocator<void> >[m[K’ {aka ‘[01m[Kconst struct std_msgs::msg::String_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpose[m[K’
+[0.962s]    52 |     transformStamped.transform.rotation.x = msg->[01;31m[Kpose[m[K.pose.orientation.x;
+[0.962s]       |                                                  [01;31m[K^~~~[m[K
+[0.962s] [01m[K/home/propp/Independent_Study/first_ros_package/src/first_ros_package/src/publisher_member_function.cpp:53:50:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = const struct std_msgs::msg::String_<std::allocator<void> >[m[K’ {aka ‘[01m[Kconst struct std_msgs::msg::String_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpose[m[K’
+[0.962s]    53 |     transformStamped.transform.rotation.y = msg->[01;31m[Kpose[m[K.pose.orientation.y;
+[0.962s]       |                                                  [01;31m[K^~~~[m[K
+[0.962s] [01m[K/home/propp/Independent_Study/first_ros_package/src/first_ros_package/src/publisher_member_function.cpp:54:50:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = const struct std_msgs::msg::String_<std::allocator<void> >[m[K’ {aka ‘[01m[Kconst struct std_msgs::msg::String_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpose[m[K’
+[0.962s]    54 |     transformStamped.transform.rotation.z = msg->[01;31m[Kpose[m[K.pose.orientation.z;
+[0.962s]       |                                                  [01;31m[K^~~~[m[K
+[0.962s] [01m[K/home/propp/Independent_Study/first_ros_package/src/first_ros_package/src/publisher_member_function.cpp:55:50:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = const struct std_msgs::msg::String_<std::allocator<void> >[m[K’ {aka ‘[01m[Kconst struct std_msgs::msg::String_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpose[m[K’
+[0.962s]    55 |     transformStamped.transform.rotation.w = msg->[01;31m[Kpose[m[K.pose.orientation.w;
+[0.962s]       |                                                  [01;31m[K^~~~[m[K
+[1.868s] make[2]: *** [CMakeFiles/talker.dir/build.make:63: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+[1.868s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/talker.dir/all] Error 2
+[1.868s] make: *** [Makefile:141: all] Error 2
+[1.870s] Invoked command in '/home/propp/Independent_Study/first_ros_package/src/first_ros_package/build/first_ros_package' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/propp/Independent_Study/src/Test_Ros/install/my_package /usr/bin/cmake --build /home/propp/Independent_Study/first_ros_package/src/first_ros_package/build/first_ros_package -- -j12 -l12

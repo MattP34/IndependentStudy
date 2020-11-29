@@ -1,0 +1,30 @@
+[0.012s] Invoking command in '/home/propp/Independent_Study/first_ros_package/src/first_ros_package/build/first_ros_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/propp/Independent_Study/src/Test_Ros/install/my_package /usr/bin/cmake --build /home/propp/Independent_Study/first_ros_package/src/first_ros_package/build/first_ros_package -- -j12 -l12
+[0.043s] [35m[1mScanning dependencies of target talker[0m
+[0.067s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[0.955s] [01m[K/home/propp/Independent_Study/first_ros_package/src/first_ros_package/src/publisher_member_function.cpp:[m[K In member function ‘[01m[Kvoid OdometryToTF::topic_callback(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)[m[K’:
+[0.955s] [01m[K/home/propp/Independent_Study/first_ros_package/src/first_ros_package/src/publisher_member_function.cpp:44:64:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[0.955s]    44 |   void topic_callback([01;35m[Kconst nav_msgs::msg::Odometry::SharedPtr msg[m[K) {
+[0.955s]       |                       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[3.286s] [100%] [32m[1mLinking CXX executable talker[0m
+[3.449s] [100%] Built target talker
+[3.457s] Invoked command in '/home/propp/Independent_Study/first_ros_package/src/first_ros_package/build/first_ros_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/propp/Independent_Study/src/Test_Ros/install/my_package /usr/bin/cmake --build /home/propp/Independent_Study/first_ros_package/src/first_ros_package/build/first_ros_package -- -j12 -l12
+[3.482s] Invoking command in '/home/propp/Independent_Study/first_ros_package/src/first_ros_package/build/first_ros_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/propp/Independent_Study/src/Test_Ros/install/my_package /usr/bin/cmake --install /home/propp/Independent_Study/first_ros_package/src/first_ros_package/build/first_ros_package
+[3.488s] -- Install configuration: ""
+[3.489s] -- Installing: /home/propp/Independent_Study/first_ros_package/src/first_ros_package/install/first_ros_package/lib/first_ros_package/talker
+[3.490s] -- Set runtime path of "/home/propp/Independent_Study/first_ros_package/src/first_ros_package/install/first_ros_package/lib/first_ros_package/talker" to ""
+[3.490s] -- Installing: /home/propp/Independent_Study/first_ros_package/src/first_ros_package/install/first_ros_package/share/ament_index/resource_index/package_run_dependencies/first_ros_package
+[3.490s] -- Up-to-date: /home/propp/Independent_Study/first_ros_package/src/first_ros_package/install/first_ros_package/share/ament_index/resource_index/parent_prefix_path/first_ros_package
+[3.490s] -- Up-to-date: /home/propp/Independent_Study/first_ros_package/src/first_ros_package/install/first_ros_package/share/first_ros_package/environment/ament_prefix_path.sh
+[3.490s] -- Installing: /home/propp/Independent_Study/first_ros_package/src/first_ros_package/install/first_ros_package/share/first_ros_package/environment/ament_prefix_path.dsv
+[3.490s] -- Up-to-date: /home/propp/Independent_Study/first_ros_package/src/first_ros_package/install/first_ros_package/share/first_ros_package/environment/path.sh
+[3.491s] -- Installing: /home/propp/Independent_Study/first_ros_package/src/first_ros_package/install/first_ros_package/share/first_ros_package/environment/path.dsv
+[3.491s] -- Up-to-date: /home/propp/Independent_Study/first_ros_package/src/first_ros_package/install/first_ros_package/share/first_ros_package/local_setup.bash
+[3.491s] -- Up-to-date: /home/propp/Independent_Study/first_ros_package/src/first_ros_package/install/first_ros_package/share/first_ros_package/local_setup.sh
+[3.491s] -- Up-to-date: /home/propp/Independent_Study/first_ros_package/src/first_ros_package/install/first_ros_package/share/first_ros_package/local_setup.zsh
+[3.491s] -- Installing: /home/propp/Independent_Study/first_ros_package/src/first_ros_package/install/first_ros_package/share/first_ros_package/local_setup.dsv
+[3.491s] -- Installing: /home/propp/Independent_Study/first_ros_package/src/first_ros_package/install/first_ros_package/share/first_ros_package/package.dsv
+[3.491s] -- Up-to-date: /home/propp/Independent_Study/first_ros_package/src/first_ros_package/install/first_ros_package/share/ament_index/resource_index/packages/first_ros_package
+[3.491s] -- Up-to-date: /home/propp/Independent_Study/first_ros_package/src/first_ros_package/install/first_ros_package/share/first_ros_package/cmake/first_ros_packageConfig.cmake
+[3.491s] -- Up-to-date: /home/propp/Independent_Study/first_ros_package/src/first_ros_package/install/first_ros_package/share/first_ros_package/cmake/first_ros_packageConfig-version.cmake
+[3.491s] -- Installing: /home/propp/Independent_Study/first_ros_package/src/first_ros_package/install/first_ros_package/share/first_ros_package/package.xml
+[3.492s] Invoked command in '/home/propp/Independent_Study/first_ros_package/src/first_ros_package/build/first_ros_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/propp/Independent_Study/src/Test_Ros/install/my_package /usr/bin/cmake --install /home/propp/Independent_Study/first_ros_package/src/first_ros_package/build/first_ros_package

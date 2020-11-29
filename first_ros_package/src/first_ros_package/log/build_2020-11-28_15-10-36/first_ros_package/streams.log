@@ -1,0 +1,67 @@
+[0.013s] Invoking command in '/home/propp/Independent_Study/first_ros_package/src/first_ros_package/build/first_ros_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/propp/Independent_Study/src/Test_Ros/install/my_package /usr/bin/cmake /home/propp/Independent_Study/first_ros_package/src/first_ros_package -DCMAKE_INSTALL_PREFIX=/home/propp/Independent_Study/first_ros_package/src/first_ros_package/install/first_ros_package
+[0.050s] -- The C compiler identification is GNU 9.3.0
+[0.091s] -- The CXX compiler identification is GNU 9.3.0
+[0.095s] -- Check for working C compiler: /usr/bin/cc
+[0.145s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.146s] -- Detecting C compiler ABI info
+[0.194s] -- Detecting C compiler ABI info - done
+[0.203s] -- Detecting C compile features
+[0.203s] -- Detecting C compile features - done
+[0.205s] -- Check for working CXX compiler: /usr/bin/c++
+[0.260s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.261s] -- Detecting CXX compiler ABI info
+[0.317s] -- Detecting CXX compiler ABI info - done
+[0.327s] -- Detecting CXX compile features
+[0.327s] -- Detecting CXX compile features - done
+[0.329s] -- Found ament_cmake: 0.9.7 (/home/propp/ros2_foxy/ros2-linux/share/ament_cmake/cmake)
+[0.345s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+[0.345s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.482s] -- Found rclcpp: 2.2.0 (/home/propp/ros2_foxy/ros2-linux/share/rclcpp/cmake)
+[0.502s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_connext_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.507s] -- Found rosidl_adapter: 1.1.0 (/home/propp/ros2_foxy/ros2-linux/share/rosidl_adapter/cmake)
+[0.511s] -- Found RTI Connext: /opt/rti.com/rti_connext_dds-5.3.1
+[1.162s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.175s] -- Found FastRTPS: /home/propp/ros2_foxy/ros2-linux/include  
+[1.222s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_connext_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.264s] -- Found rmw_implementation_cmake: 1.0.1 (/home/propp/ros2_foxy/ros2-linux/share/rmw_implementation_cmake/cmake)
+[1.265s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.266s] -- Looking for pthread.h
+[1.318s] -- Looking for pthread.h - found
+[1.318s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.371s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.371s] -- Looking for pthread_create in pthreads
+[1.416s] -- Looking for pthread_create in pthreads - not found
+[1.416s] -- Looking for pthread_create in pthread
+[1.465s] -- Looking for pthread_create in pthread - found
+[1.466s] -- Found Threads: TRUE  
+[1.538s] -- Found std_msgs: 2.0.3 (/home/propp/ros2_foxy/ros2-linux/share/std_msgs/cmake)
+[1.597s] -- Configuring done
+[1.602s] -- Generating done
+[1.603s] -- Build files have been written to: /home/propp/Independent_Study/first_ros_package/src/first_ros_package/build/first_ros_package
+[1.608s] Invoked command in '/home/propp/Independent_Study/first_ros_package/src/first_ros_package/build/first_ros_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/propp/Independent_Study/src/Test_Ros/install/my_package /usr/bin/cmake /home/propp/Independent_Study/first_ros_package/src/first_ros_package -DCMAKE_INSTALL_PREFIX=/home/propp/Independent_Study/first_ros_package/src/first_ros_package/install/first_ros_package
+[1.610s] Invoking command in '/home/propp/Independent_Study/first_ros_package/src/first_ros_package/build/first_ros_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/propp/Independent_Study/src/Test_Ros/install/my_package /usr/bin/cmake --build /home/propp/Independent_Study/first_ros_package/src/first_ros_package/build/first_ros_package -- -j12 -l12
+[1.639s] [35m[1mScanning dependencies of target talker[0m
+[1.699s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[3.715s] [100%] [32m[1mLinking CXX executable talker[0m
+[3.838s] [100%] Built target talker
+[3.847s] Invoked command in '/home/propp/Independent_Study/first_ros_package/src/first_ros_package/build/first_ros_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/propp/Independent_Study/src/Test_Ros/install/my_package /usr/bin/cmake --build /home/propp/Independent_Study/first_ros_package/src/first_ros_package/build/first_ros_package -- -j12 -l12
+[3.871s] Invoking command in '/home/propp/Independent_Study/first_ros_package/src/first_ros_package/build/first_ros_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/propp/Independent_Study/src/Test_Ros/install/my_package /usr/bin/cmake --install /home/propp/Independent_Study/first_ros_package/src/first_ros_package/build/first_ros_package
+[3.877s] -- Install configuration: ""
+[3.877s] -- Installing: /home/propp/Independent_Study/first_ros_package/src/first_ros_package/install/first_ros_package/lib/first_ros_package/talker
+[3.878s] -- Set runtime path of "/home/propp/Independent_Study/first_ros_package/src/first_ros_package/install/first_ros_package/lib/first_ros_package/talker" to ""
+[3.878s] -- Installing: /home/propp/Independent_Study/first_ros_package/src/first_ros_package/install/first_ros_package/share/ament_index/resource_index/package_run_dependencies/first_ros_package
+[3.879s] -- Installing: /home/propp/Independent_Study/first_ros_package/src/first_ros_package/install/first_ros_package/share/ament_index/resource_index/parent_prefix_path/first_ros_package
+[3.879s] -- Installing: /home/propp/Independent_Study/first_ros_package/src/first_ros_package/install/first_ros_package/share/first_ros_package/environment/ament_prefix_path.sh
+[3.879s] -- Installing: /home/propp/Independent_Study/first_ros_package/src/first_ros_package/install/first_ros_package/share/first_ros_package/environment/ament_prefix_path.dsv
+[3.879s] -- Installing: /home/propp/Independent_Study/first_ros_package/src/first_ros_package/install/first_ros_package/share/first_ros_package/environment/path.sh
+[3.879s] -- Installing: /home/propp/Independent_Study/first_ros_package/src/first_ros_package/install/first_ros_package/share/first_ros_package/environment/path.dsv
+[3.879s] -- Installing: /home/propp/Independent_Study/first_ros_package/src/first_ros_package/install/first_ros_package/share/first_ros_package/local_setup.bash
+[3.880s] -- Installing: /home/propp/Independent_Study/first_ros_package/src/first_ros_package/install/first_ros_package/share/first_ros_package/local_setup.sh
+[3.880s] -- Installing: /home/propp/Independent_Study/first_ros_package/src/first_ros_package/install/first_ros_package/share/first_ros_package/local_setup.zsh
+[3.880s] -- Installing: /home/propp/Independent_Study/first_ros_package/src/first_ros_package/install/first_ros_package/share/first_ros_package/local_setup.dsv
+[3.880s] -- Installing: /home/propp/Independent_Study/first_ros_package/src/first_ros_package/install/first_ros_package/share/first_ros_package/package.dsv
+[3.880s] -- Installing: /home/propp/Independent_Study/first_ros_package/src/first_ros_package/install/first_ros_package/share/ament_index/resource_index/packages/first_ros_package
+[3.880s] -- Installing: /home/propp/Independent_Study/first_ros_package/src/first_ros_package/install/first_ros_package/share/first_ros_package/cmake/first_ros_packageConfig.cmake
+[3.880s] -- Installing: /home/propp/Independent_Study/first_ros_package/src/first_ros_package/install/first_ros_package/share/first_ros_package/cmake/first_ros_packageConfig-version.cmake
+[3.881s] -- Installing: /home/propp/Independent_Study/first_ros_package/src/first_ros_package/install/first_ros_package/share/first_ros_package/package.xml
+[3.883s] Invoked command in '/home/propp/Independent_Study/first_ros_package/src/first_ros_package/build/first_ros_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/propp/Independent_Study/src/Test_Ros/install/my_package /usr/bin/cmake --install /home/propp/Independent_Study/first_ros_package/src/first_ros_package/build/first_ros_package

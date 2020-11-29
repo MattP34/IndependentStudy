@@ -1,0 +1,8 @@
+CMake Error at /home/propp/ros2_foxy/ros2-linux/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:66 (message):
+  ament_target_dependencies() the passed package name 'ft2_ros' was not found
+  before
+Call Stack (most recent call first):
+  CMakeLists.txt:27 (ament_target_dependencies)
+
+
+make: *** [Makefile:266: cmake_check_build_system] Error 1

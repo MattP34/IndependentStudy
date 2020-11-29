@@ -1,0 +1,26 @@
+[0.012s] Invoking command in '/home/propp/Independent_Study/first_ros_package/src/first_ros_package/build/first_ros_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/propp/Independent_Study/src/Test_Ros/install/my_package /usr/bin/cmake --build /home/propp/Independent_Study/first_ros_package/src/first_ros_package/build/first_ros_package -- -j12 -l12
+[0.043s] [35m[1mScanning dependencies of target talker[0m
+[0.065s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[0.955s] [01m[K/home/propp/Independent_Study/first_ros_package/src/first_ros_package/src/publisher_member_function.cpp:[m[K In member function ‘[01m[Kvoid OdometryToTF::topic_callback(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr) const[m[K’:
+[0.955s] [01m[K/home/propp/Independent_Study/first_ros_package/src/first_ros_package/src/publisher_member_function.cpp:45:42:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Ktf2_ros::TransformBroadcaster::TransformBroadcaster()[m[K’
+[0.955s]    45 |     static tf2_ros::TransformBroadcaster [01;31m[Kbr[m[K;
+[0.955s]       |                                          [01;31m[K^~[m[K
+[0.955s] In file included from [01m[K/home/propp/Independent_Study/first_ros_package/src/first_ros_package/src/publisher_member_function.cpp:21[m[K:
+[0.955s] [01m[K/home/propp/ros2_foxy/ros2-linux/include/tf2_ros/transform_broadcaster.h:53:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class NodeT, class AllocatorT> tf2_ros::TransformBroadcaster::TransformBroadcaster(NodeT&&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+[0.955s]    53 |   [01;36m[KTransformBroadcaster[m[K(
+[0.956s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[0.956s] [01m[K/home/propp/ros2_foxy/ros2-linux/include/tf2_ros/transform_broadcaster.h:53:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[0.956s] [01m[K/home/propp/Independent_Study/first_ros_package/src/first_ros_package/src/publisher_member_function.cpp:45:42:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 0 provided
+[0.956s]    45 |     static tf2_ros::TransformBroadcaster [01;36m[Kbr[m[K;
+[0.956s]       |                                          [01;36m[K^~[m[K
+[0.956s] In file included from [01m[K/home/propp/Independent_Study/first_ros_package/src/first_ros_package/src/publisher_member_function.cpp:21[m[K:
+[0.956s] [01m[K/home/propp/ros2_foxy/ros2-linux/include/tf2_ros/transform_broadcaster.h:49:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktf2_ros::TransformBroadcaster::TransformBroadcaster(const tf2_ros::TransformBroadcaster&)[m[K’
+[0.956s]    49 | class [01;36m[KTransformBroadcaster[m[K{
+[0.956s]       |       [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[0.956s] [01m[K/home/propp/ros2_foxy/ros2-linux/include/tf2_ros/transform_broadcaster.h:49:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[0.956s] [01m[K/home/propp/ros2_foxy/ros2-linux/include/tf2_ros/transform_broadcaster.h:49:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktf2_ros::TransformBroadcaster::TransformBroadcaster(tf2_ros::TransformBroadcaster&&)[m[K’
+[0.956s] [01m[K/home/propp/ros2_foxy/ros2-linux/include/tf2_ros/transform_broadcaster.h:49:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[1.921s] make[2]: *** [CMakeFiles/talker.dir/build.make:63: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+[1.921s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/talker.dir/all] Error 2
+[1.922s] make: *** [Makefile:141: all] Error 2
+[1.923s] Invoked command in '/home/propp/Independent_Study/first_ros_package/src/first_ros_package/build/first_ros_package' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/propp/Independent_Study/src/Test_Ros/install/my_package /usr/bin/cmake --build /home/propp/Independent_Study/first_ros_package/src/first_ros_package/build/first_ros_package -- -j12 -l12

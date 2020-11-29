@@ -1,0 +1,34 @@
+[0.011s] Invoking command in '/home/propp/Independent_Study/first_ros_package/src/first_ros_package/build/first_ros_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/propp/Independent_Study/src/Test_Ros/install/my_package /usr/bin/cmake --build /home/propp/Independent_Study/first_ros_package/src/first_ros_package/build/first_ros_package -- -j12 -l12
+[0.032s] -- Found ament_cmake: 0.9.7 (/home/propp/ros2_foxy/ros2-linux/share/ament_cmake/cmake)
+[0.048s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.174s] -- Found rclcpp: 2.2.0 (/home/propp/ros2_foxy/ros2-linux/share/rclcpp/cmake)
+[0.188s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_connext_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.191s] -- Found rosidl_adapter: 1.1.0 (/home/propp/ros2_foxy/ros2-linux/share/rosidl_adapter/cmake)
+[0.193s] -- Found RTI Connext: /opt/rti.com/rti_connext_dds-5.3.1
+[0.461s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_connext_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.500s] -- Found rmw_implementation_cmake: 1.0.1 (/home/propp/ros2_foxy/ros2-linux/share/rmw_implementation_cmake/cmake)
+[0.501s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.568s] -- Found tf2: 0.13.5 (/home/propp/ros2_foxy/ros2-linux/share/tf2/cmake)
+[0.622s] -- Found tf2_ros: 0.13.5 (/home/propp/ros2_foxy/ros2-linux/share/tf2_ros/cmake)
+[0.877s] CMake Error at CMakeLists.txt:18 (find_package):
+[0.877s]   By not providing "Findlearning_tf2.cmake" in CMAKE_MODULE_PATH this project
+[0.878s]   has asked CMake to find a package configuration file provided by
+[0.878s]   "learning_tf2", but CMake did not find one.
+[0.878s] 
+[0.878s]   Could not find a package configuration file provided by "learning_tf2" with
+[0.878s]   any of the following names:
+[0.878s] 
+[0.878s]     learning_tf2Config.cmake
+[0.878s]     learning_tf2-config.cmake
+[0.878s] 
+[0.878s]   Add the installation prefix of "learning_tf2" to CMAKE_PREFIX_PATH or set
+[0.879s]   "learning_tf2_DIR" to a directory containing one of the above files.  If
+[0.879s]   "learning_tf2" provides a separate development package or SDK, be sure it
+[0.879s]   has been installed.
+[0.879s] 
+[0.879s] 
+[0.879s] -- Configuring incomplete, errors occurred!
+[0.879s] See also "/home/propp/Independent_Study/first_ros_package/src/first_ros_package/build/first_ros_package/CMakeFiles/CMakeOutput.log".
+[0.879s] See also "/home/propp/Independent_Study/first_ros_package/src/first_ros_package/build/first_ros_package/CMakeFiles/CMakeError.log".
+[0.883s] make: *** [Makefile:266: cmake_check_build_system] Error 1
+[0.886s] Invoked command in '/home/propp/Independent_Study/first_ros_package/src/first_ros_package/build/first_ros_package' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/propp/Independent_Study/src/Test_Ros/install/my_package /usr/bin/cmake --build /home/propp/Independent_Study/first_ros_package/src/first_ros_package/build/first_ros_package -- -j12 -l12

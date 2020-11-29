@@ -1,0 +1,28 @@
+[35m[1mScanning dependencies of target talker[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[01m[K/home/propp/Independent_Study/first_ros_package/src/first_ros_package/src/publisher_member_function.cpp:[m[K In constructor ‘[01m[KOdometryToTF::OdometryToTF()[m[K’:
+[01m[K/home/propp/Independent_Study/first_ros_package/src/first_ros_package/src/publisher_member_function.cpp:35:89:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K=[m[K’ token
+   35 |     std::shared_ptr<rclcpp::Subscription<std_msgs::msg::String>> odometrySubscription_; [01;31m[K=[m[K this->create_subscription<std_msgs::msg::String>("/model/marble_husky_sensor_config_2/odometry",
+      |                                                                                         [01;31m[K^[m[K
+[01m[K/home/propp/Independent_Study/first_ros_package/src/first_ros_package/src/publisher_member_function.cpp:[m[K In static member function ‘[01m[Kstatic void OdometryToTF::topic_callback(std::shared_ptr<const std_msgs::msg::String_<std::allocator<void> > >)[m[K’:
+[01m[K/home/propp/Independent_Study/first_ros_package/src/first_ros_package/src/publisher_member_function.cpp:49:53:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = const struct std_msgs::msg::String_<std::allocator<void> >[m[K’ {aka ‘[01m[Kconst struct std_msgs::msg::String_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpose[m[K’
+   49 |     transformStamped.transform.translation.x = msg->[01;31m[Kpose[m[K.pose.position.x;
+      |                                                     [01;31m[K^~~~[m[K
+[01m[K/home/propp/Independent_Study/first_ros_package/src/first_ros_package/src/publisher_member_function.cpp:50:53:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = const struct std_msgs::msg::String_<std::allocator<void> >[m[K’ {aka ‘[01m[Kconst struct std_msgs::msg::String_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpose[m[K’
+   50 |     transformStamped.transform.translation.y = msg->[01;31m[Kpose[m[K.pose.position.y;
+      |                                                     [01;31m[K^~~~[m[K
+[01m[K/home/propp/Independent_Study/first_ros_package/src/first_ros_package/src/publisher_member_function.cpp:52:50:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = const struct std_msgs::msg::String_<std::allocator<void> >[m[K’ {aka ‘[01m[Kconst struct std_msgs::msg::String_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpose[m[K’
+   52 |     transformStamped.transform.rotation.x = msg->[01;31m[Kpose[m[K.pose.orientation.x;
+      |                                                  [01;31m[K^~~~[m[K
+[01m[K/home/propp/Independent_Study/first_ros_package/src/first_ros_package/src/publisher_member_function.cpp:53:50:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = const struct std_msgs::msg::String_<std::allocator<void> >[m[K’ {aka ‘[01m[Kconst struct std_msgs::msg::String_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpose[m[K’
+   53 |     transformStamped.transform.rotation.y = msg->[01;31m[Kpose[m[K.pose.orientation.y;
+      |                                                  [01;31m[K^~~~[m[K
+[01m[K/home/propp/Independent_Study/first_ros_package/src/first_ros_package/src/publisher_member_function.cpp:54:50:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = const struct std_msgs::msg::String_<std::allocator<void> >[m[K’ {aka ‘[01m[Kconst struct std_msgs::msg::String_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpose[m[K’
+   54 |     transformStamped.transform.rotation.z = msg->[01;31m[Kpose[m[K.pose.orientation.z;
+      |                                                  [01;31m[K^~~~[m[K
+[01m[K/home/propp/Independent_Study/first_ros_package/src/first_ros_package/src/publisher_member_function.cpp:55:50:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = const struct std_msgs::msg::String_<std::allocator<void> >[m[K’ {aka ‘[01m[Kconst struct std_msgs::msg::String_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpose[m[K’
+   55 |     transformStamped.transform.rotation.w = msg->[01;31m[Kpose[m[K.pose.orientation.w;
+      |                                                  [01;31m[K^~~~[m[K
+make[2]: *** [CMakeFiles/talker.dir/build.make:63: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/talker.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2
