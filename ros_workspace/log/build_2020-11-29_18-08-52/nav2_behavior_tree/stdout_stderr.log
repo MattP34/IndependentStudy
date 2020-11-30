@@ -1,0 +1,36 @@
+-- Found ament_cmake: 0.9.7 (/home/propp/ros2_foxy/ros2-linux/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found nav2_common: 0.4.5 (/home/propp/Independent_Study/ros_workspace/install/nav2_common/share/nav2_common/cmake)
+-- Found rclcpp: 2.2.0 (/home/propp/ros2_foxy/ros2-linux/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_connext_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.1.0 (/home/propp/ros2_foxy/ros2-linux/share/rosidl_adapter/cmake)
+-- Found RTI Connext: /opt/rti.com/rti_connext_dds-5.3.1
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_connext_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.1 (/home/propp/ros2_foxy/ros2-linux/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_action: 2.2.0 (/home/propp/ros2_foxy/ros2-linux/share/rclcpp_action/cmake)
+-- Found rclcpp_lifecycle: 2.2.0 (/home/propp/ros2_foxy/ros2-linux/share/rclcpp_lifecycle/cmake)
+-- Found geometry_msgs: 2.0.3 (/home/propp/ros2_foxy/ros2-linux/share/geometry_msgs/cmake)
+-- Found sensor_msgs: 2.0.3 (/home/propp/ros2_foxy/ros2-linux/share/sensor_msgs/cmake)
+-- Found nav2_msgs: 0.4.5 (/home/propp/Independent_Study/ros_workspace/install/nav2_msgs/share/nav2_msgs/cmake)
+CMake Error at CMakeLists.txt:14 (find_package):
+  By not providing "Findbehaviortree_cpp_v3.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "behaviortree_cpp_v3", but CMake did not find one.
+
+  Could not find a package configuration file provided by
+  "behaviortree_cpp_v3" with any of the following names:
+
+    behaviortree_cpp_v3Config.cmake
+    behaviortree_cpp_v3-config.cmake
+
+  Add the installation prefix of "behaviortree_cpp_v3" to CMAKE_PREFIX_PATH
+  or set "behaviortree_cpp_v3_DIR" to a directory containing one of the above
+  files.  If "behaviortree_cpp_v3" provides a separate development package or
+  SDK, be sure it has been installed.
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/propp/Independent_Study/ros_workspace/build/nav2_behavior_tree/CMakeFiles/CMakeOutput.log".
+See also "/home/propp/Independent_Study/ros_workspace/build/nav2_behavior_tree/CMakeFiles/CMakeError.log".

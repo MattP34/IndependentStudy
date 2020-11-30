@@ -1,0 +1,66 @@
+[0.037s] Invoking command in '/home/propp/Independent_Study/ros_workspace/build/nav2_lifecycle_manager': AMENT_PREFIX_PATH=/home/propp/Independent_Study/ros_workspace/install/nav2_util:/home/propp/Independent_Study/ros_workspace/install/nav2_msgs:/home/propp/Independent_Study/ros_workspace/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/propp/Independent_Study/ros_workspace/install/nav2_util:/home/propp/Independent_Study/ros_workspace/install/nav2_msgs:/home/propp/Independent_Study/ros_workspace/install/nav2_common:/home/propp/Independent_Study/first_ros_package/src/first_ros_package/install/first_ros_package:/home/propp/ros2_foxy/ros2-linux:/home/propp/Independent_Study/src/Test_Ros/install/my_package LD_LIBRARY_PATH=/home/propp/Independent_Study/ros_workspace/install/nav2_util/lib:/home/propp/Independent_Study/ros_workspace/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/propp/Independent_Study/ros_workspace/install/nav2_msgs/lib/python3.8/site-packages:/home/propp/Independent_Study/ros_workspace/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/propp/Independent_Study/ros_workspace/src/navigation2/nav2_lifecycle_manager -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/propp/Independent_Study/ros_workspace/install/nav2_lifecycle_manager
+[0.100s] -- The C compiler identification is GNU 9.3.0
+[0.156s] -- The CXX compiler identification is GNU 9.3.0
+[0.160s] -- Check for working C compiler: /usr/bin/cc
+[0.236s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.236s] -- Detecting C compiler ABI info
+[0.323s] -- Detecting C compiler ABI info - done
+[0.334s] -- Detecting C compile features
+[0.335s] -- Detecting C compile features - done
+[0.338s] -- Check for working CXX compiler: /usr/bin/c++
+[0.439s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.440s] -- Detecting CXX compiler ABI info
+[0.532s] -- Detecting CXX compiler ABI info - done
+[0.548s] -- Detecting CXX compile features
+[0.548s] -- Detecting CXX compile features - done
+[0.550s] -- Found ament_cmake: 0.9.7 (/home/propp/ros2_foxy/ros2-linux/share/ament_cmake/cmake)
+[0.572s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+[0.572s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.750s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.783s] -- Found geometry_msgs: 2.0.3 (/home/propp/ros2_foxy/ros2-linux/share/geometry_msgs/cmake)
+[0.807s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_connext_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.816s] -- Found rosidl_adapter: 1.1.0 (/home/propp/ros2_foxy/ros2-linux/share/rosidl_adapter/cmake)
+[0.820s] -- Found RTI Connext: /opt/rti.com/rti_connext_dds-5.3.1
+[1.735s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.759s] -- Found FastRTPS: /home/propp/ros2_foxy/ros2-linux/include  
+[1.822s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_connext_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.946s] -- Found lifecycle_msgs: 1.0.0 (/home/propp/ros2_foxy/ros2-linux/share/lifecycle_msgs/cmake)
+[1.959s] -- Found nav2_common: 0.4.5 (/home/propp/Independent_Study/ros_workspace/install/nav2_common/share/nav2_common/cmake)
+[1.960s] -- Found nav2_msgs: 0.4.5 (/home/propp/Independent_Study/ros_workspace/install/nav2_msgs/share/nav2_msgs/cmake)
+[2.405s] -- Found nav2_util: 0.4.5 (/home/propp/Independent_Study/ros_workspace/install/nav2_util/share/nav2_util/cmake)
+[2.492s] -- Found rmw_implementation_cmake: 1.0.1 (/home/propp/ros2_foxy/ros2-linux/share/rmw_implementation_cmake/cmake)
+[2.493s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.494s] -- Looking for pthread.h
+[2.557s] -- Looking for pthread.h - found
+[2.557s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.621s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.621s] -- Looking for pthread_create in pthreads
+[2.672s] -- Looking for pthread_create in pthreads - not found
+[2.672s] -- Looking for pthread_create in pthread
+[2.737s] -- Looking for pthread_create in pthread - found
+[2.739s] -- Found Threads: TRUE  
+[3.156s] -- Found eigen3_cmake_module: 0.1.1 (/home/propp/ros2_foxy/ros2-linux/share/eigen3_cmake_module/cmake)
+[3.159s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[3.290s] -- Found std_srvs: 2.0.3 (/home/propp/ros2_foxy/ros2-linux/share/std_srvs/cmake)
+[3.298s] -- Setting build type to Release as none was specified.
+[3.672s] -- Found ament_lint_auto: 0.9.5 (/home/propp/ros2_foxy/ros2-linux/share/ament_lint_auto/cmake)
+[3.740s] -- Found ament_cmake_gtest: 0.9.7 (/home/propp/ros2_foxy/ros2-linux/share/ament_cmake_gtest/cmake)
+[3.742s] -- Found ament_cmake_pytest: 0.9.7 (/home/propp/ros2_foxy/ros2-linux/share/ament_cmake_pytest/cmake)
+[3.746s] -- Found gtest sources under '/home/propp/ros2_foxy/ros2-linux/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.749s] -- Check if compiler accepts -pthread
+[3.827s] -- Check if compiler accepts -pthread - yes
+[3.986s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.988s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.988s] -- Configured cppcheck include dirs: /home/propp/Independent_Study/ros_workspace/src/navigation2/nav2_lifecycle_manager/include
+[3.988s] -- Configured cppcheck exclude dirs and/or files: 
+[3.989s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.989s] -- Configured cpplint exclude dirs and/or files: 
+[3.989s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.990s] -- Added test 'lint_cmake' to check CMake code style
+[3.990s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[3.991s] -- Added test 'uncrustify' to check C / C++ code style
+[3.991s] -- Configured uncrustify additional arguments: 
+[3.992s] -- Added test 'xmllint' to check XML markup files
+[3.997s] -- Configuring done
+[4.074s] -- Generating done
+[4.076s] -- Build files have been written to: /home/propp/Independent_Study/ros_workspace/build/nav2_lifecycle_manager

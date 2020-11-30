@@ -1,0 +1,37 @@
+[0.018s] Invoking command in '/home/propp/Independent_Study/ros_workspace/build/first_ros_package': /usr/bin/cmake --build /home/propp/Independent_Study/ros_workspace/build/first_ros_package -- -j12 -l12
+[0.040s] -- Found ament_cmake: 0.9.7 (/home/propp/ros2_foxy/ros2-linux/share/ament_cmake/cmake)
+[0.059s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.209s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.214s] -- Found rclcpp: 2.2.0 (/home/propp/ros2_foxy/ros2-linux/share/rclcpp/cmake)
+[0.228s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_connext_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.231s] -- Found rosidl_adapter: 1.1.0 (/home/propp/ros2_foxy/ros2-linux/share/rosidl_adapter/cmake)
+[0.233s] -- Found RTI Connext: /opt/rti.com/rti_connext_dds-5.3.1
+[0.517s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_connext_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.556s] -- Found rmw_implementation_cmake: 1.0.1 (/home/propp/ros2_foxy/ros2-linux/share/rmw_implementation_cmake/cmake)
+[0.557s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.624s] -- Found tf2: 0.13.5 (/home/propp/ros2_foxy/ros2-linux/share/tf2/cmake)
+[0.677s] -- Found tf2_ros: 0.13.5 (/home/propp/ros2_foxy/ros2-linux/share/tf2_ros/cmake)
+[0.929s] -- Found nav_msgs: 2.0.3 (/home/propp/ros2_foxy/ros2-linux/share/nav_msgs/cmake)
+[0.987s] -- Found sensor_msgs: 2.0.3 (/home/propp/ros2_foxy/ros2-linux/share/sensor_msgs/cmake)
+[1.049s] CMake Error at CMakeLists.txt:22 (find_package):
+[1.049s]   By not providing "Findpointcloud_to_laserscan.cmake" in CMAKE_MODULE_PATH
+[1.049s]   this project has asked CMake to find a package configuration file provided
+[1.049s]   by "pointcloud_to_laserscan", but CMake did not find one.
+[1.049s] 
+[1.049s]   Could not find a package configuration file provided by
+[1.049s]   "pointcloud_to_laserscan" with any of the following names:
+[1.049s] 
+[1.049s]     pointcloud_to_laserscanConfig.cmake
+[1.049s]     pointcloud_to_laserscan-config.cmake
+[1.049s] 
+[1.049s]   Add the installation prefix of "pointcloud_to_laserscan" to
+[1.049s]   CMAKE_PREFIX_PATH or set "pointcloud_to_laserscan_DIR" to a directory
+[1.049s]   containing one of the above files.  If "pointcloud_to_laserscan" provides a
+[1.049s]   separate development package or SDK, be sure it has been installed.
+[1.049s] 
+[1.049s] 
+[1.050s] -- Configuring incomplete, errors occurred!
+[1.050s] See also "/home/propp/Independent_Study/ros_workspace/build/first_ros_package/CMakeFiles/CMakeOutput.log".
+[1.050s] See also "/home/propp/Independent_Study/ros_workspace/build/first_ros_package/CMakeFiles/CMakeError.log".
+[1.055s] make: *** [Makefile:310: cmake_check_build_system] Error 1
+[1.056s] Invoked command in '/home/propp/Independent_Study/ros_workspace/build/first_ros_package' returned '2': /usr/bin/cmake --build /home/propp/Independent_Study/ros_workspace/build/first_ros_package -- -j12 -l12

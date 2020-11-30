@@ -1,0 +1,253 @@
+[0.038s] Invoking command in '/home/propp/Independent_Study/ros_workspace/build/nav_2d_msgs': /usr/bin/cmake /home/propp/Independent_Study/ros_workspace/src/navigation2/nav2_dwb_controller/nav_2d_msgs -DCMAKE_INSTALL_PREFIX=/home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs
+[0.227s] -- Found geometry_msgs: 2.0.3 (/home/propp/ros2_foxy/ros2-linux/share/geometry_msgs/cmake)
+[0.227s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+[0.227s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.228s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.228s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_connext_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.228s] -- Found rosidl_adapter: 1.1.0 (/home/propp/ros2_foxy/ros2-linux/share/rosidl_adapter/cmake)
+[0.230s] -- Found ament_cmake: 0.9.7 (/home/propp/ros2_foxy/ros2-linux/share/ament_cmake/cmake)
+[0.231s] -- Found RTI Connext: /opt/rti.com/rti_connext_dds-5.3.1
+[0.734s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_connext_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.821s] -- Found rosidl_default_generators: 1.0.0 (/home/propp/ros2_foxy/ros2-linux/share/rosidl_default_generators/cmake)
+[0.850s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.5") 
+[1.229s] -- Found ament_cmake_ros: 0.9.0 (/home/propp/ros2_foxy/ros2-linux/share/ament_cmake_ros/cmake)
+[1.465s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_connext_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.608s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_connext_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.636s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3.5") 
+[1.636s] -- Found python_cmake_module: 0.8.0 (/home/propp/ros2_foxy/ros2-linux/share/python_cmake_module/cmake)
+[1.655s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.655s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[1.655s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[1.743s] -- Configuring done
+[1.891s] -- Generating done
+[1.896s] -- Build files have been written to: /home/propp/Independent_Study/ros_workspace/build/nav_2d_msgs
+[1.903s] Invoked command in '/home/propp/Independent_Study/ros_workspace/build/nav_2d_msgs' returned '0': /usr/bin/cmake /home/propp/Independent_Study/ros_workspace/src/navigation2/nav2_dwb_controller/nav_2d_msgs -DCMAKE_INSTALL_PREFIX=/home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs
+[1.906s] Invoking command in '/home/propp/Independent_Study/ros_workspace/build/nav_2d_msgs': /usr/bin/cmake --build /home/propp/Independent_Study/ros_workspace/build/nav_2d_msgs -- -j12 -l12
+[1.956s] [  0%] Built target nav_2d_msgs__cpp
+[1.960s] [  1%] Built target nav_2d_msgs__dds_connext_idl
+[1.965s] [  7%] Built target nav_2d_msgs__rosidl_generator_c
+[1.984s] [ 14%] Built target nav_2d_msgs__rosidl_typesupport_introspection_cpp
+[1.985s] [ 21%] Built target nav_2d_msgs__rosidl_typesupport_cpp
+[1.992s] [ 27%] Built target nav_2d_msgs__rosidl_typesupport_introspection_c
+[1.993s] [ 34%] Built target nav_2d_msgs__rosidl_typesupport_fastrtps_cpp
+[1.993s] [ 41%] Built target nav_2d_msgs__rosidl_typesupport_c
+[2.028s] [ 47%] Built target nav_2d_msgs__rosidl_typesupport_fastrtps_c
+[2.044s] [ 68%] Built target nav_2d_msgs__rosidl_typesupport_connext_cpp
+[2.109s] [ 90%] Built target nav_2d_msgs__rosidl_typesupport_connext_c
+[2.126s] [ 90%] Built target nav_2d_msgs
+[2.143s] [ 91%] Built target nav_2d_msgs__py
+[2.169s] [ 96%] Built target nav_2d_msgs__python
+[2.201s] [ 97%] Built target nav_2d_msgs__rosidl_typesupport_fastrtps_c__pyext
+[2.206s] [ 98%] Built target nav_2d_msgs__rosidl_typesupport_introspection_c__pyext
+[2.206s] [ 99%] Built target nav_2d_msgs__rosidl_typesupport_c__pyext
+[2.207s] [100%] Built target nav_2d_msgs__rosidl_typesupport_connext_c__pyext
+[2.218s] Invoked command in '/home/propp/Independent_Study/ros_workspace/build/nav_2d_msgs' returned '0': /usr/bin/cmake --build /home/propp/Independent_Study/ros_workspace/build/nav_2d_msgs -- -j12 -l12
+[2.360s] Invoking command in '/home/propp/Independent_Study/ros_workspace/build/nav_2d_msgs': /usr/bin/cmake --install /home/propp/Independent_Study/ros_workspace/build/nav_2d_msgs
+[2.367s] -- Install configuration: ""
+[2.368s] -- Execute custom install script
+[2.368s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/share/ament_index/resource_index/rosidl_interfaces/nav_2d_msgs
+[2.368s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/path2_d__functions.h
+[2.369s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/path2_d__struct.h
+[2.369s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/path2_d__type_support.h
+[2.369s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d32__functions.h
+[2.369s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d32__struct.h
+[2.369s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d32__type_support.h
+[2.369s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d_stamped__functions.h
+[2.369s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d_stamped__struct.h
+[2.370s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d_stamped__type_support.h
+[2.370s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d32__functions.h
+[2.370s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d32__struct.h
+[2.370s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d32__type_support.h
+[2.370s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d__functions.h
+[2.370s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d__struct.h
+[2.370s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d__type_support.h
+[2.370s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d_stamped__functions.h
+[2.371s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d_stamped__struct.h
+[2.371s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d_stamped__type_support.h
+[2.371s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/path2_d.h
+[2.371s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/pose2_d32.h
+[2.371s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/pose2_d_stamped.h
+[2.371s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/rosidl_generator_c__visibility_control.h
+[2.371s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/twist2_d.h
+[2.372s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/twist2_d32.h
+[2.372s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/twist2_d_stamped.h
+[2.372s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/share/nav_2d_msgs/environment/library_path.sh
+[2.372s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/share/nav_2d_msgs/environment/library_path.dsv
+[2.373s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/path2_d__rosidl_typesupport_connext_c.h
+[2.373s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/pose2_d32__rosidl_typesupport_connext_c.h
+[2.373s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/pose2_d_stamped__rosidl_typesupport_connext_c.h
+[2.373s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/rosidl_typesupport_connext_c__visibility_control.h
+[2.373s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/twist2_d32__rosidl_typesupport_connext_c.h
+[2.374s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/twist2_d__rosidl_typesupport_connext_c.h
+[2.374s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/twist2_d_stamped__rosidl_typesupport_connext_c.h
+[2.374s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_connext_c.so
+[2.374s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/share/nav_2d_msgs/msg/dds_connext/Path2D_.idl
+[2.374s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/share/nav_2d_msgs/msg/dds_connext/Pose2D32_.idl
+[2.375s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/share/nav_2d_msgs/msg/dds_connext/Pose2DStamped_.idl
+[2.375s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/share/nav_2d_msgs/msg/dds_connext/Twist2D32_.idl
+[2.375s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/share/nav_2d_msgs/msg/dds_connext/Twist2DStamped_.idl
+[2.375s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/share/nav_2d_msgs/msg/dds_connext/Twist2D_.idl
+[2.376s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/dds_connext/Path2D_.cxx
+[2.376s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/dds_connext/Path2D_.h
+[2.376s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/dds_connext/Path2D_Plugin.cxx
+[2.377s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/dds_connext/Path2D_Plugin.h
+[2.377s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/dds_connext/Path2D_Support.cxx
+[2.377s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/dds_connext/Path2D_Support.h
+[2.377s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/dds_connext/Pose2D32_.cxx
+[2.377s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/dds_connext/Pose2D32_.h
+[2.377s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/dds_connext/Pose2D32_Plugin.cxx
+[2.377s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/dds_connext/Pose2D32_Plugin.h
+[2.377s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/dds_connext/Pose2D32_Support.cxx
+[2.378s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/dds_connext/Pose2D32_Support.h
+[2.378s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/dds_connext/Pose2DStamped_.cxx
+[2.378s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/dds_connext/Pose2DStamped_.h
+[2.378s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/dds_connext/Pose2DStamped_Plugin.cxx
+[2.378s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/dds_connext/Pose2DStamped_Plugin.h
+[2.378s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/dds_connext/Pose2DStamped_Support.cxx
+[2.378s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/dds_connext/Pose2DStamped_Support.h
+[2.378s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/dds_connext/Twist2D32_.cxx
+[2.379s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/dds_connext/Twist2D32_.h
+[2.379s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/dds_connext/Twist2D32_Plugin.cxx
+[2.379s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/dds_connext/Twist2D32_Plugin.h
+[2.379s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/dds_connext/Twist2D32_Support.cxx
+[2.379s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/dds_connext/Twist2D32_Support.h
+[2.379s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/dds_connext/Twist2DStamped_.cxx
+[2.379s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/dds_connext/Twist2DStamped_.h
+[2.380s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/dds_connext/Twist2DStamped_Plugin.cxx
+[2.380s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/dds_connext/Twist2DStamped_Plugin.h
+[2.380s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/dds_connext/Twist2DStamped_Support.cxx
+[2.380s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/dds_connext/Twist2DStamped_Support.h
+[2.380s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/dds_connext/Twist2D_.cxx
+[2.380s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/dds_connext/Twist2D_.h
+[2.380s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/dds_connext/Twist2D_Plugin.cxx
+[2.381s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/dds_connext/Twist2D_Plugin.h
+[2.381s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/dds_connext/Twist2D_Support.cxx
+[2.381s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/dds_connext/Twist2D_Support.h
+[2.381s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/path2_d__rosidl_typesupport_connext_cpp.hpp
+[2.381s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/pose2_d32__rosidl_typesupport_connext_cpp.hpp
+[2.381s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/pose2_d_stamped__rosidl_typesupport_connext_cpp.hpp
+[2.381s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/rosidl_typesupport_connext_cpp__visibility_control.h
+[2.382s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/twist2_d32__rosidl_typesupport_connext_cpp.hpp
+[2.382s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/twist2_d__rosidl_typesupport_connext_cpp.hpp
+[2.382s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/twist2_d_stamped__rosidl_typesupport_connext_cpp.hpp
+[2.382s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_connext_cpp.so
+[2.383s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/path2_d__rosidl_typesupport_fastrtps_c.h
+[2.383s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d32__rosidl_typesupport_fastrtps_c.h
+[2.383s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d_stamped__rosidl_typesupport_fastrtps_c.h
+[2.383s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d32__rosidl_typesupport_fastrtps_c.h
+[2.383s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d__rosidl_typesupport_fastrtps_c.h
+[2.384s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d_stamped__rosidl_typesupport_fastrtps_c.h
+[2.384s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.384s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_fastrtps_c.so
+[2.385s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/path2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[2.385s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d32__rosidl_typesupport_fastrtps_cpp.hpp
+[2.385s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[2.385s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d32__rosidl_typesupport_fastrtps_cpp.hpp
+[2.385s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[2.385s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[2.386s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.386s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_fastrtps_cpp.so
+[2.386s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/path2_d__rosidl_typesupport_introspection_c.h
+[2.387s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d32__rosidl_typesupport_introspection_c.h
+[2.387s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d_stamped__rosidl_typesupport_introspection_c.h
+[2.387s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d32__rosidl_typesupport_introspection_c.h
+[2.387s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d__rosidl_typesupport_introspection_c.h
+[2.387s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d_stamped__rosidl_typesupport_introspection_c.h
+[2.387s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.388s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/path2_d__builder.hpp
+[2.388s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/path2_d__struct.hpp
+[2.388s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/path2_d__traits.hpp
+[2.388s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d32__builder.hpp
+[2.389s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d32__struct.hpp
+[2.389s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d32__traits.hpp
+[2.389s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d_stamped__builder.hpp
+[2.389s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d_stamped__struct.hpp
+[2.389s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d_stamped__traits.hpp
+[2.389s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d32__builder.hpp
+[2.389s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d32__struct.hpp
+[2.390s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d32__traits.hpp
+[2.390s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d__builder.hpp
+[2.390s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d__struct.hpp
+[2.390s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d__traits.hpp
+[2.390s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d_stamped__builder.hpp
+[2.390s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d_stamped__struct.hpp
+[2.391s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d_stamped__traits.hpp
+[2.391s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/path2_d.hpp
+[2.391s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/pose2_d32.hpp
+[2.391s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/pose2_d_stamped.hpp
+[2.391s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/twist2_d.hpp
+[2.391s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/twist2_d32.hpp
+[2.391s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/twist2_d_stamped.hpp
+[2.392s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/path2_d__rosidl_typesupport_introspection_cpp.hpp
+[2.392s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d32__rosidl_typesupport_introspection_cpp.hpp
+[2.392s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d_stamped__rosidl_typesupport_introspection_cpp.hpp
+[2.392s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d32__rosidl_typesupport_introspection_cpp.hpp
+[2.393s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d__rosidl_typesupport_introspection_cpp.hpp
+[2.393s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d_stamped__rosidl_typesupport_introspection_cpp.hpp
+[2.393s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/share/nav_2d_msgs/environment/pythonpath.sh
+[2.393s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/share/nav_2d_msgs/environment/pythonpath.dsv
+[2.393s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/lib/python3.8/site-packages/nav_2d_msgs/__init__.py
+[2.394s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/lib/python3.8/site-packages/nav_2d_msgs/msg/__init__.py
+[2.394s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/lib/python3.8/site-packages/nav_2d_msgs/msg/_path2_d.py
+[2.394s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/lib/python3.8/site-packages/nav_2d_msgs/msg/_pose2_d32.py
+[2.394s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/lib/python3.8/site-packages/nav_2d_msgs/msg/_pose2_d_stamped.py
+[2.394s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/lib/python3.8/site-packages/nav_2d_msgs/msg/_twist2_d.py
+[2.395s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/lib/python3.8/site-packages/nav_2d_msgs/msg/_twist2_d32.py
+[2.395s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/lib/python3.8/site-packages/nav_2d_msgs/msg/_twist2_d_stamped.py
+[2.395s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/lib/python3.8/site-packages/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_connext_c.cpython-38-x86_64-linux-gnu.so
+[2.395s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/lib/python3.8/site-packages/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[2.396s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/lib/python3.8/site-packages/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[2.396s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/lib/python3.8/site-packages/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[2.396s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/lib/libnav_2d_msgs__python.so
+[2.397s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/share/nav_2d_msgs/msg/Path2D.idl
+[2.397s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/share/nav_2d_msgs/msg/Pose2D32.idl
+[2.397s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/share/nav_2d_msgs/msg/Pose2DStamped.idl
+[2.397s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2D.idl
+[2.397s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2D32.idl
+[2.398s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2DStamped.idl
+[2.398s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/share/nav_2d_msgs/msg/Path2D.msg
+[2.398s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/share/nav_2d_msgs/msg/Pose2D32.msg
+[2.398s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/share/nav_2d_msgs/msg/Pose2DStamped.msg
+[2.398s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2D.msg
+[2.399s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2D32.msg
+[2.399s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2DStamped.msg
+[2.399s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/share/ament_index/resource_index/package_run_dependencies/nav_2d_msgs
+[2.399s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/share/ament_index/resource_index/parent_prefix_path/nav_2d_msgs
+[2.400s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/share/nav_2d_msgs/environment/ament_prefix_path.sh
+[2.400s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/share/nav_2d_msgs/environment/ament_prefix_path.dsv
+[2.400s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/share/nav_2d_msgs/environment/path.sh
+[2.400s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/share/nav_2d_msgs/environment/path.dsv
+[2.401s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/share/nav_2d_msgs/local_setup.bash
+[2.401s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/share/nav_2d_msgs/local_setup.sh
+[2.401s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/share/nav_2d_msgs/local_setup.zsh
+[2.401s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/share/nav_2d_msgs/local_setup.dsv
+[2.402s] -- Symlinking: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/share/nav_2d_msgs/package.dsv
+[2.412s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/share/ament_index/resource_index/packages/nav_2d_msgs
+[2.412s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/share/nav_2d_msgs/cmake/rosidl_cmake-extras.cmake
+[2.412s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/share/nav_2d_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.412s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/share/nav_2d_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[2.412s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/share/nav_2d_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[2.413s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/share/nav_2d_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.413s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/share/nav_2d_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.413s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/share/nav_2d_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.413s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgsConfig.cmake
+[2.413s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgsConfig-version.cmake
+[2.414s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/share/nav_2d_msgs/package.xml
+[2.414s] -- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_generator_c.so
+[2.414s] -- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_introspection_c.so
+[2.414s] -- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_c.so
+[2.415s] -- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_introspection_cpp.so
+[2.415s] -- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_cpp.so
+[2.449s] Compiling '/home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/lib/python3.8/site-packages/nav_2d_msgs/__init__.py'...
+[2.453s] -- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_generator_cExport.cmake
+[2.453s] -- Installing: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_generator_cExport-noconfig.cmake
+[2.454s] -- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_introspection_cExport.cmake
+[2.454s] -- Installing: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.454s] -- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_cExport.cmake
+[2.454s] -- Installing: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[2.454s] -- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_generator_cppExport.cmake
+[2.454s] -- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[2.454s] -- Installing: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.454s] -- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_cppExport.cmake
+[2.455s] -- Installing: /home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[2.457s] Invoked command in '/home/propp/Independent_Study/ros_workspace/build/nav_2d_msgs' returned '0': /usr/bin/cmake --install /home/propp/Independent_Study/ros_workspace/build/nav_2d_msgs

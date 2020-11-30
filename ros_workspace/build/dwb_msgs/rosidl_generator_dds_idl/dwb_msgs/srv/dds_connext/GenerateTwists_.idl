@@ -1,0 +1,51 @@
+// generated from rosidl_generator_dds_idl/resource/idl.idl.em
+// with input from dwb_msgs:srv/GenerateTwists.idl
+// generated code does not contain a copyright notice
+#include "nav_2d_msgs/msg/dds_connext/Twist2D_.idl"
+
+#ifndef __dwb_msgs__srv__generate_twists__idl__
+#define __dwb_msgs__srv__generate_twists__idl__
+
+
+module dwb_msgs {
+
+module srv {
+
+module dds_ {
+
+
+struct GenerateTwists_Request_ {
+nav_2d_msgs::msg::dds_::Twist2D_ current_vel_;
+
+};
+
+
+};  // module dds_
+
+};  // module srv
+
+};  // module dwb_msgs
+
+
+module dwb_msgs {
+
+module srv {
+
+module dds_ {
+
+
+struct GenerateTwists_Response_ {
+sequence<nav_2d_msgs::msg::dds_::Twist2D_> twists_;
+
+
+};
+
+
+};  // module dds_
+
+};  // module srv
+
+};  // module dwb_msgs
+
+
+#endif  // __dwb_msgs__srv__generate_twists__idl__

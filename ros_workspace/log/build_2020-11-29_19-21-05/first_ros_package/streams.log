@@ -1,0 +1,33 @@
+[0.016s] Invoking command in '/home/propp/Independent_Study/ros_workspace/build/first_ros_package': /usr/bin/cmake --build /home/propp/Independent_Study/ros_workspace/build/first_ros_package -- -j12 -l12
+[0.040s] -- Found ament_cmake: 0.9.7 (/home/propp/ros2_foxy/ros2-linux/share/ament_cmake/cmake)
+[0.057s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.202s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.208s] -- Found rclcpp: 2.2.0 (/home/propp/ros2_foxy/ros2-linux/share/rclcpp/cmake)
+[0.222s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_connext_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.225s] -- Found rosidl_adapter: 1.1.0 (/home/propp/ros2_foxy/ros2-linux/share/rosidl_adapter/cmake)
+[0.227s] -- Found RTI Connext: /opt/rti.com/rti_connext_dds-5.3.1
+[0.510s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_connext_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.549s] -- Found rmw_implementation_cmake: 1.0.1 (/home/propp/ros2_foxy/ros2-linux/share/rmw_implementation_cmake/cmake)
+[0.550s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.616s] -- Found tf2: 0.13.5 (/home/propp/ros2_foxy/ros2-linux/share/tf2/cmake)
+[0.671s] -- Found tf2_ros: 0.13.5 (/home/propp/ros2_foxy/ros2-linux/share/tf2_ros/cmake)
+[0.922s] -- Found nav_msgs: 2.0.3 (/home/propp/ros2_foxy/ros2-linux/share/nav_msgs/cmake)
+[0.980s] -- Found sensor_msgs: 2.0.3 (/home/propp/ros2_foxy/ros2-linux/share/sensor_msgs/cmake)
+[1.087s] -- Configuring done
+[1.097s] -- Generating done
+[1.098s] -- Build files have been written to: /home/propp/Independent_Study/ros_workspace/build/first_ros_package
+[1.116s] [35m[1mScanning dependencies of target pointCloudToLaserScan[0m
+[1.116s] [35m[1mScanning dependencies of target odometryTfConverter[0m
+[1.124s] [ 25%] [32mBuilding CXX object CMakeFiles/pointCloudToLaserScan.dir/src/point_cloud_to_laserscan.cpp.o[0m
+[1.144s] [ 50%] [32mBuilding CXX object CMakeFiles/odometryTfConverter.dir/src/odometry_to_tf.cpp.o[0m
+[1.153s] [01m[K/home/propp/Independent_Study/ros_workspace/src/first_ros_package/src/point_cloud_to_laserscan.cpp:20:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
+[1.153s]    20 | #include [01;31m[K"rclcpp/rclcpp.hpp"[m[K
+[1.153s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.153s] compilation terminated.
+[1.154s] make[2]: *** [CMakeFiles/pointCloudToLaserScan.dir/build.make:63: CMakeFiles/pointCloudToLaserScan.dir/src/point_cloud_to_laserscan.cpp.o] Error 1
+[1.154s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/pointCloudToLaserScan.dir/all] Error 2
+[1.154s] make[1]: *** Waiting for unfinished jobs....
+[4.795s] [ 75%] [32m[1mLinking CXX executable odometryTfConverter[0m
+[4.995s] [ 75%] Built target odometryTfConverter
+[4.996s] make: *** [Makefile:141: all] Error 2
+[4.998s] Invoked command in '/home/propp/Independent_Study/ros_workspace/build/first_ros_package' returned '2': /usr/bin/cmake --build /home/propp/Independent_Study/ros_workspace/build/first_ros_package -- -j12 -l12

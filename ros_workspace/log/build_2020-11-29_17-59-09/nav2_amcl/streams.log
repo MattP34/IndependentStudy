@@ -1,0 +1,61 @@
+[0.032s] Invoking command in '/home/propp/Independent_Study/ros_workspace/build/nav2_amcl': AMENT_PREFIX_PATH=/home/propp/Independent_Study/ros_workspace/install/nav2_util:/home/propp/Independent_Study/ros_workspace/install/nav2_msgs:/home/propp/Independent_Study/ros_workspace/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/propp/Independent_Study/ros_workspace/install/nav2_util:/home/propp/Independent_Study/ros_workspace/install/nav2_msgs:/home/propp/Independent_Study/ros_workspace/install/nav2_common:/home/propp/Independent_Study/first_ros_package/src/first_ros_package/install/first_ros_package:/home/propp/ros2_foxy/ros2-linux:/home/propp/Independent_Study/src/Test_Ros/install/my_package LD_LIBRARY_PATH=/home/propp/Independent_Study/ros_workspace/install/nav2_util/lib:/home/propp/Independent_Study/ros_workspace/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/propp/Independent_Study/ros_workspace/install/nav2_msgs/lib/python3.8/site-packages:/home/propp/Independent_Study/ros_workspace/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/propp/Independent_Study/ros_workspace/src/navigation2/nav2_amcl -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/propp/Independent_Study/ros_workspace/install/nav2_amcl
+[0.091s] -- The C compiler identification is GNU 9.3.0
+[0.152s] -- The CXX compiler identification is GNU 9.3.0
+[0.158s] -- Check for working C compiler: /usr/bin/cc
+[0.236s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.237s] -- Detecting C compiler ABI info
+[0.312s] -- Detecting C compiler ABI info - done
+[0.321s] -- Detecting C compile features
+[0.322s] -- Detecting C compile features - done
+[0.323s] -- Check for working CXX compiler: /usr/bin/c++
+[0.414s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.415s] -- Detecting CXX compiler ABI info
+[0.496s] -- Detecting CXX compiler ABI info - done
+[0.506s] -- Detecting CXX compile features
+[0.507s] -- Detecting CXX compile features - done
+[0.510s] -- Found ament_cmake: 0.9.7 (/home/propp/ros2_foxy/ros2-linux/share/ament_cmake/cmake)
+[0.538s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+[0.538s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.680s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.710s] -- Found nav2_common: 0.4.5 (/home/propp/Independent_Study/ros_workspace/install/nav2_common/share/nav2_common/cmake)
+[0.712s] -- Found rclcpp: 2.2.0 (/home/propp/ros2_foxy/ros2-linux/share/rclcpp/cmake)
+[0.743s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_connext_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.749s] -- Found rosidl_adapter: 1.1.0 (/home/propp/ros2_foxy/ros2-linux/share/rosidl_adapter/cmake)
+[0.753s] -- Found RTI Connext: /opt/rti.com/rti_connext_dds-5.3.1
+[1.758s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.780s] -- Found FastRTPS: /home/propp/ros2_foxy/ros2-linux/include  
+[1.851s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_connext_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.901s] -- Found rmw_implementation_cmake: 1.0.1 (/home/propp/ros2_foxy/ros2-linux/share/rmw_implementation_cmake/cmake)
+[1.902s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.903s] -- Looking for pthread.h
+[1.983s] -- Looking for pthread.h - found
+[1.983s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.063s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.063s] -- Looking for pthread_create in pthreads
+[2.119s] -- Looking for pthread_create in pthreads - not found
+[2.119s] -- Looking for pthread_create in pthread
+[2.194s] -- Looking for pthread_create in pthread - found
+[2.196s] -- Found Threads: TRUE  
+[2.335s] -- Found rclcpp_lifecycle: 2.2.0 (/home/propp/ros2_foxy/ros2-linux/share/rclcpp_lifecycle/cmake)
+[2.378s] -- Found message_filters: 3.2.4 (/home/propp/ros2_foxy/ros2-linux/share/message_filters/cmake)
+[2.382s] -- Found tf2_geometry_msgs: 0.13.5 (/home/propp/ros2_foxy/ros2-linux/share/tf2_geometry_msgs/cmake)
+[2.459s] -- Found eigen3_cmake_module: 0.1.1 (/home/propp/ros2_foxy/ros2-linux/share/eigen3_cmake_module/cmake)
+[2.462s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[2.832s] -- Found nav_msgs: 2.0.3 (/home/propp/ros2_foxy/ros2-linux/share/nav_msgs/cmake)
+[2.893s] -- Found sensor_msgs: 2.0.3 (/home/propp/ros2_foxy/ros2-linux/share/sensor_msgs/cmake)
+[2.956s] -- Found std_srvs: 2.0.3 (/home/propp/ros2_foxy/ros2-linux/share/std_srvs/cmake)
+[2.964s] -- Found nav2_util: 0.4.5 (/home/propp/Independent_Study/ros_workspace/install/nav2_util/share/nav2_util/cmake)
+[3.319s] -- Setting build type to Release as none was specified.
+[3.319s] -- Looking for drand48
+[3.396s] -- Looking for drand48 - found
+[4.352s] -- Found ament_lint_auto: 0.9.5 (/home/propp/ros2_foxy/ros2-linux/share/ament_lint_auto/cmake)
+[4.414s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.415s] -- Configured cppcheck include dirs: /home/propp/Independent_Study/ros_workspace/src/navigation2/nav2_amcl/include;/home/propp/Independent_Study/ros_workspace/src/navigation2/nav2_amcl/src/include
+[4.415s] -- Configured cppcheck exclude dirs and/or files: 
+[4.416s] -- Added test 'lint_cmake' to check CMake code style
+[4.418s] -- Added test 'uncrustify' to check C / C++ code style
+[4.418s] -- Configured uncrustify additional arguments: 
+[4.419s] -- Added test 'xmllint' to check XML markup files
+[4.425s] -- Configuring done
+[4.523s] -- Generating done
+[4.526s] -- Build files have been written to: /home/propp/Independent_Study/ros_workspace/build/nav2_amcl

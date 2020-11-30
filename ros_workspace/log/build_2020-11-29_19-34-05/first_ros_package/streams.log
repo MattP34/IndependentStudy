@@ -1,0 +1,28 @@
+[0.018s] Invoking command in '/home/propp/Independent_Study/ros_workspace/build/first_ros_package': /usr/bin/cmake --build /home/propp/Independent_Study/ros_workspace/build/first_ros_package -- -j12 -l12
+[0.040s] -- Found ament_cmake: 0.9.7 (/home/propp/ros2_foxy/ros2-linux/share/ament_cmake/cmake)
+[0.059s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.207s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.213s] -- Found rclcpp: 2.2.0 (/home/propp/ros2_foxy/ros2-linux/share/rclcpp/cmake)
+[0.227s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_connext_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.230s] -- Found rosidl_adapter: 1.1.0 (/home/propp/ros2_foxy/ros2-linux/share/rosidl_adapter/cmake)
+[0.232s] -- Found RTI Connext: /opt/rti.com/rti_connext_dds-5.3.1
+[0.526s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_connext_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.564s] -- Found rmw_implementation_cmake: 1.0.1 (/home/propp/ros2_foxy/ros2-linux/share/rmw_implementation_cmake/cmake)
+[0.566s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.633s] -- Found tf2: 0.13.5 (/home/propp/ros2_foxy/ros2-linux/share/tf2/cmake)
+[0.687s] -- Found tf2_ros: 0.13.5 (/home/propp/ros2_foxy/ros2-linux/share/tf2_ros/cmake)
+[0.941s] -- Found nav_msgs: 2.0.3 (/home/propp/ros2_foxy/ros2-linux/share/nav_msgs/cmake)
+[1.001s] -- Found sensor_msgs: 2.0.3 (/home/propp/ros2_foxy/ros2-linux/share/sensor_msgs/cmake)
+[1.106s] -- Configuring done
+[1.116s] -- Generating done
+[1.118s] -- Build files have been written to: /home/propp/Independent_Study/ros_workspace/build/first_ros_package
+[1.143s] [ 25%] [32mBuilding CXX object CMakeFiles/pointCloudToLaserScan.dir/src/point_cloud_to_laserscan.cpp.o[0m
+[1.149s] [ 75%] Built target odometryTfConverter
+[1.220s] [01m[K/home/propp/Independent_Study/ros_workspace/src/first_ros_package/src/point_cloud_to_laserscan.cpp:23:10:[m[K [01;31m[Kfatal error: [m[Kpointcloud_to_laserscan/pointcloud_to_laserscan_node.hpp: No such file or directory
+[1.220s]    23 | #include [01;31m[K"pointcloud_to_laserscan/pointcloud_to_laserscan_node.hpp"[m[K
+[1.220s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.221s] compilation terminated.
+[1.222s] make[2]: *** [CMakeFiles/pointCloudToLaserScan.dir/build.make:63: CMakeFiles/pointCloudToLaserScan.dir/src/point_cloud_to_laserscan.cpp.o] Error 1
+[1.223s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/pointCloudToLaserScan.dir/all] Error 2
+[1.223s] make: *** [Makefile:141: all] Error 2
+[1.226s] Invoked command in '/home/propp/Independent_Study/ros_workspace/build/first_ros_package' returned '2': /usr/bin/cmake --build /home/propp/Independent_Study/ros_workspace/build/first_ros_package -- -j12 -l12

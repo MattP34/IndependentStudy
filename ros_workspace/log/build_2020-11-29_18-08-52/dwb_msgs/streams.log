@@ -1,0 +1,311 @@
+[0.009s] Invoking command in '/home/propp/Independent_Study/ros_workspace/build/dwb_msgs': AMENT_PREFIX_PATH=/home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/propp/Independent_Study/ros_workspace/build/dwb_msgs -- -j12 -l12
+[0.056s] [  0%] Built target dwb_msgs__cpp
+[0.056s] [  1%] Built target dwb_msgs__dds_connext_idl
+[0.060s] [  7%] Built target dwb_msgs__rosidl_generator_c
+[0.082s] [ 14%] Built target dwb_msgs__rosidl_typesupport_introspection_cpp
+[0.085s] [ 20%] Built target dwb_msgs__rosidl_typesupport_cpp
+[0.089s] [ 26%] Built target dwb_msgs__rosidl_typesupport_introspection_c
+[0.090s] [ 32%] Built target dwb_msgs__rosidl_typesupport_c
+[0.090s] [ 38%] Built target dwb_msgs__rosidl_typesupport_fastrtps_cpp
+[0.122s] [ 45%] Built target dwb_msgs__rosidl_typesupport_fastrtps_c
+[0.151s] [ 67%] Built target dwb_msgs__rosidl_typesupport_connext_cpp
+[0.243s] [ 90%] Built target dwb_msgs__rosidl_typesupport_connext_c
+[0.261s] [ 90%] Built target dwb_msgs
+[0.278s] [ 90%] Built target dwb_msgs__py
+[0.306s] [ 96%] Built target dwb_msgs__python
+[0.330s] [ 97%] Built target dwb_msgs__rosidl_typesupport_connext_c__pyext
+[0.330s] [ 99%] Built target dwb_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.330s] [ 99%] Built target dwb_msgs__rosidl_typesupport_introspection_c__pyext
+[0.330s] [100%] Built target dwb_msgs__rosidl_typesupport_c__pyext
+[0.341s] Invoked command in '/home/propp/Independent_Study/ros_workspace/build/dwb_msgs' returned '0': AMENT_PREFIX_PATH=/home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/propp/Independent_Study/ros_workspace/build/dwb_msgs -- -j12 -l12
+[0.527s] Invoking command in '/home/propp/Independent_Study/ros_workspace/build/dwb_msgs': AMENT_PREFIX_PATH=/home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/propp/Independent_Study/ros_workspace/build/dwb_msgs
+[0.534s] -- Install configuration: ""
+[0.535s] -- Execute custom install script
+[0.535s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/share/ament_index/resource_index/rosidl_interfaces/dwb_msgs
+[0.536s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/msg/critic_score.h
+[0.536s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/msg/detail/critic_score__functions.h
+[0.536s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/msg/detail/critic_score__struct.h
+[0.537s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/msg/detail/critic_score__type_support.h
+[0.537s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/msg/detail/local_plan_evaluation__functions.h
+[0.537s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/msg/detail/local_plan_evaluation__struct.h
+[0.537s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/msg/detail/local_plan_evaluation__type_support.h
+[0.537s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/msg/detail/trajectory2_d__functions.h
+[0.537s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/msg/detail/trajectory2_d__struct.h
+[0.538s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/msg/detail/trajectory2_d__type_support.h
+[0.538s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/msg/detail/trajectory_score__functions.h
+[0.538s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/msg/detail/trajectory_score__struct.h
+[0.538s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/msg/detail/trajectory_score__type_support.h
+[0.538s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/msg/local_plan_evaluation.h
+[0.539s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/msg/rosidl_generator_c__visibility_control.h
+[0.539s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/msg/trajectory2_d.h
+[0.539s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/msg/trajectory_score.h
+[0.539s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/srv/debug_local_plan.h
+[0.539s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/srv/detail/debug_local_plan__functions.h
+[0.540s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/srv/detail/debug_local_plan__struct.h
+[0.540s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/srv/detail/debug_local_plan__type_support.h
+[0.540s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/srv/detail/generate_trajectory__functions.h
+[0.540s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/srv/detail/generate_trajectory__struct.h
+[0.540s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/srv/detail/generate_trajectory__type_support.h
+[0.540s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/srv/detail/generate_twists__functions.h
+[0.541s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/srv/detail/generate_twists__struct.h
+[0.541s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/srv/detail/generate_twists__type_support.h
+[0.541s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/srv/detail/get_critic_score__functions.h
+[0.541s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/srv/detail/get_critic_score__struct.h
+[0.541s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/srv/detail/get_critic_score__type_support.h
+[0.541s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/srv/detail/score_trajectory__functions.h
+[0.541s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/srv/detail/score_trajectory__struct.h
+[0.542s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/srv/detail/score_trajectory__type_support.h
+[0.542s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/srv/generate_trajectory.h
+[0.542s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/srv/generate_twists.h
+[0.542s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/srv/get_critic_score.h
+[0.542s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/srv/score_trajectory.h
+[0.542s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/share/dwb_msgs/environment/library_path.sh
+[0.543s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/share/dwb_msgs/environment/library_path.dsv
+[0.543s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/msg/critic_score__rosidl_typesupport_connext_c.h
+[0.543s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/msg/local_plan_evaluation__rosidl_typesupport_connext_c.h
+[0.543s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/msg/rosidl_typesupport_connext_c__visibility_control.h
+[0.544s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/msg/trajectory2_d__rosidl_typesupport_connext_c.h
+[0.544s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/msg/trajectory_score__rosidl_typesupport_connext_c.h
+[0.544s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/srv/debug_local_plan__rosidl_typesupport_connext_c.h
+[0.544s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/srv/generate_trajectory__rosidl_typesupport_connext_c.h
+[0.544s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/srv/generate_twists__rosidl_typesupport_connext_c.h
+[0.544s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/srv/get_critic_score__rosidl_typesupport_connext_c.h
+[0.544s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/srv/score_trajectory__rosidl_typesupport_connext_c.h
+[0.545s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_connext_c.so
+[0.545s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/share/dwb_msgs/msg/dds_connext/CriticScore_.idl
+[0.545s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/share/dwb_msgs/msg/dds_connext/LocalPlanEvaluation_.idl
+[0.545s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/share/dwb_msgs/msg/dds_connext/Trajectory2D_.idl
+[0.545s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/share/dwb_msgs/msg/dds_connext/TrajectoryScore_.idl
+[0.546s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/share/dwb_msgs/srv/dds_connext/DebugLocalPlan_.idl
+[0.546s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/share/dwb_msgs/srv/dds_connext/GenerateTrajectory_.idl
+[0.546s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/share/dwb_msgs/srv/dds_connext/GenerateTwists_.idl
+[0.546s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/share/dwb_msgs/srv/dds_connext/GetCriticScore_.idl
+[0.547s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/share/dwb_msgs/srv/dds_connext/ScoreTrajectory_.idl
+[0.548s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/msg/critic_score__rosidl_typesupport_connext_cpp.hpp
+[0.548s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/msg/dds_connext/CriticScore_.cxx
+[0.548s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/msg/dds_connext/CriticScore_.h
+[0.549s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/msg/dds_connext/CriticScore_Plugin.cxx
+[0.549s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/msg/dds_connext/CriticScore_Plugin.h
+[0.549s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/msg/dds_connext/CriticScore_Support.cxx
+[0.549s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/msg/dds_connext/CriticScore_Support.h
+[0.549s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/msg/dds_connext/LocalPlanEvaluation_.cxx
+[0.549s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/msg/dds_connext/LocalPlanEvaluation_.h
+[0.549s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/msg/dds_connext/LocalPlanEvaluation_Plugin.cxx
+[0.550s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/msg/dds_connext/LocalPlanEvaluation_Plugin.h
+[0.550s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/msg/dds_connext/LocalPlanEvaluation_Support.cxx
+[0.550s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/msg/dds_connext/LocalPlanEvaluation_Support.h
+[0.550s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/msg/dds_connext/Trajectory2D_.cxx
+[0.550s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/msg/dds_connext/Trajectory2D_.h
+[0.550s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/msg/dds_connext/Trajectory2D_Plugin.cxx
+[0.550s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/msg/dds_connext/Trajectory2D_Plugin.h
+[0.550s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/msg/dds_connext/Trajectory2D_Support.cxx
+[0.551s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/msg/dds_connext/Trajectory2D_Support.h
+[0.551s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/msg/dds_connext/TrajectoryScore_.cxx
+[0.551s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/msg/dds_connext/TrajectoryScore_.h
+[0.551s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/msg/dds_connext/TrajectoryScore_Plugin.cxx
+[0.551s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/msg/dds_connext/TrajectoryScore_Plugin.h
+[0.551s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/msg/dds_connext/TrajectoryScore_Support.cxx
+[0.551s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/msg/dds_connext/TrajectoryScore_Support.h
+[0.552s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/msg/local_plan_evaluation__rosidl_typesupport_connext_cpp.hpp
+[0.552s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/msg/rosidl_typesupport_connext_cpp__visibility_control.h
+[0.552s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/msg/trajectory2_d__rosidl_typesupport_connext_cpp.hpp
+[0.552s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/msg/trajectory_score__rosidl_typesupport_connext_cpp.hpp
+[0.552s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/srv/dds_connext/DebugLocalPlan_.cxx
+[0.553s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/srv/dds_connext/DebugLocalPlan_.h
+[0.553s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/srv/dds_connext/DebugLocalPlan_Plugin.cxx
+[0.553s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/srv/dds_connext/DebugLocalPlan_Plugin.h
+[0.553s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/srv/dds_connext/DebugLocalPlan_Support.cxx
+[0.553s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/srv/dds_connext/DebugLocalPlan_Support.h
+[0.553s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/srv/dds_connext/GenerateTrajectory_.cxx
+[0.553s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/srv/dds_connext/GenerateTrajectory_.h
+[0.553s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/srv/dds_connext/GenerateTrajectory_Plugin.cxx
+[0.554s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/srv/dds_connext/GenerateTrajectory_Plugin.h
+[0.554s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/srv/dds_connext/GenerateTrajectory_Support.cxx
+[0.554s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/srv/dds_connext/GenerateTrajectory_Support.h
+[0.554s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/srv/dds_connext/GenerateTwists_.cxx
+[0.554s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/srv/dds_connext/GenerateTwists_.h
+[0.554s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/srv/dds_connext/GenerateTwists_Plugin.cxx
+[0.554s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/srv/dds_connext/GenerateTwists_Plugin.h
+[0.555s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/srv/dds_connext/GenerateTwists_Support.cxx
+[0.555s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/srv/dds_connext/GenerateTwists_Support.h
+[0.555s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/srv/dds_connext/GetCriticScore_.cxx
+[0.555s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/srv/dds_connext/GetCriticScore_.h
+[0.555s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/srv/dds_connext/GetCriticScore_Plugin.cxx
+[0.555s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/srv/dds_connext/GetCriticScore_Plugin.h
+[0.555s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/srv/dds_connext/GetCriticScore_Support.cxx
+[0.555s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/srv/dds_connext/GetCriticScore_Support.h
+[0.556s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/srv/dds_connext/ScoreTrajectory_.cxx
+[0.556s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/srv/dds_connext/ScoreTrajectory_.h
+[0.556s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/srv/dds_connext/ScoreTrajectory_Plugin.cxx
+[0.556s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/srv/dds_connext/ScoreTrajectory_Plugin.h
+[0.556s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/srv/dds_connext/ScoreTrajectory_Support.cxx
+[0.556s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/srv/dds_connext/ScoreTrajectory_Support.h
+[0.557s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/srv/debug_local_plan__rosidl_typesupport_connext_cpp.hpp
+[0.557s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/srv/generate_trajectory__rosidl_typesupport_connext_cpp.hpp
+[0.557s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/srv/generate_twists__rosidl_typesupport_connext_cpp.hpp
+[0.557s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/srv/get_critic_score__rosidl_typesupport_connext_cpp.hpp
+[0.557s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/srv/score_trajectory__rosidl_typesupport_connext_cpp.hpp
+[0.558s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_connext_cpp.so
+[0.559s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/msg/detail/critic_score__rosidl_typesupport_fastrtps_c.h
+[0.559s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/msg/detail/local_plan_evaluation__rosidl_typesupport_fastrtps_c.h
+[0.559s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/msg/detail/trajectory2_d__rosidl_typesupport_fastrtps_c.h
+[0.559s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/msg/detail/trajectory_score__rosidl_typesupport_fastrtps_c.h
+[0.559s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.559s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/srv/detail/debug_local_plan__rosidl_typesupport_fastrtps_c.h
+[0.560s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/srv/detail/generate_trajectory__rosidl_typesupport_fastrtps_c.h
+[0.560s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/srv/detail/generate_twists__rosidl_typesupport_fastrtps_c.h
+[0.560s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/srv/detail/get_critic_score__rosidl_typesupport_fastrtps_c.h
+[0.560s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/srv/detail/score_trajectory__rosidl_typesupport_fastrtps_c.h
+[0.561s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_fastrtps_c.so
+[0.562s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/msg/detail/critic_score__rosidl_typesupport_fastrtps_cpp.hpp
+[0.562s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/msg/detail/local_plan_evaluation__rosidl_typesupport_fastrtps_cpp.hpp
+[0.562s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/msg/detail/trajectory2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[0.562s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/msg/detail/trajectory_score__rosidl_typesupport_fastrtps_cpp.hpp
+[0.562s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.562s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/srv/detail/debug_local_plan__rosidl_typesupport_fastrtps_cpp.hpp
+[0.563s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/srv/detail/generate_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[0.563s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/srv/detail/generate_twists__rosidl_typesupport_fastrtps_cpp.hpp
+[0.563s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/srv/detail/get_critic_score__rosidl_typesupport_fastrtps_cpp.hpp
+[0.563s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/srv/detail/score_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[0.564s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_fastrtps_cpp.so
+[0.564s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/msg/detail/critic_score__rosidl_typesupport_introspection_c.h
+[0.564s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/msg/detail/local_plan_evaluation__rosidl_typesupport_introspection_c.h
+[0.564s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/msg/detail/trajectory2_d__rosidl_typesupport_introspection_c.h
+[0.564s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/msg/detail/trajectory_score__rosidl_typesupport_introspection_c.h
+[0.565s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.565s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/srv/detail/debug_local_plan__rosidl_typesupport_introspection_c.h
+[0.565s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/srv/detail/generate_trajectory__rosidl_typesupport_introspection_c.h
+[0.565s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/srv/detail/generate_twists__rosidl_typesupport_introspection_c.h
+[0.565s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/srv/detail/get_critic_score__rosidl_typesupport_introspection_c.h
+[0.565s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/srv/detail/score_trajectory__rosidl_typesupport_introspection_c.h
+[0.566s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/msg/critic_score.hpp
+[0.566s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/msg/detail/critic_score__builder.hpp
+[0.566s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/msg/detail/critic_score__struct.hpp
+[0.566s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/msg/detail/critic_score__traits.hpp
+[0.566s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/msg/detail/local_plan_evaluation__builder.hpp
+[0.567s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/msg/detail/local_plan_evaluation__struct.hpp
+[0.567s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/msg/detail/local_plan_evaluation__traits.hpp
+[0.567s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/msg/detail/trajectory2_d__builder.hpp
+[0.567s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/msg/detail/trajectory2_d__struct.hpp
+[0.567s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/msg/detail/trajectory2_d__traits.hpp
+[0.567s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/msg/detail/trajectory_score__builder.hpp
+[0.568s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/msg/detail/trajectory_score__struct.hpp
+[0.568s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/msg/detail/trajectory_score__traits.hpp
+[0.568s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/msg/local_plan_evaluation.hpp
+[0.568s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/msg/trajectory2_d.hpp
+[0.568s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/msg/trajectory_score.hpp
+[0.568s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/srv/debug_local_plan.hpp
+[0.568s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/srv/detail/debug_local_plan__builder.hpp
+[0.569s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/srv/detail/debug_local_plan__struct.hpp
+[0.569s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/srv/detail/debug_local_plan__traits.hpp
+[0.569s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/srv/detail/generate_trajectory__builder.hpp
+[0.569s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/srv/detail/generate_trajectory__struct.hpp
+[0.569s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/srv/detail/generate_trajectory__traits.hpp
+[0.569s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/srv/detail/generate_twists__builder.hpp
+[0.570s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/srv/detail/generate_twists__struct.hpp
+[0.570s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/srv/detail/generate_twists__traits.hpp
+[0.570s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/srv/detail/get_critic_score__builder.hpp
+[0.570s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/srv/detail/get_critic_score__struct.hpp
+[0.570s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/srv/detail/get_critic_score__traits.hpp
+[0.570s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/srv/detail/score_trajectory__builder.hpp
+[0.571s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/srv/detail/score_trajectory__struct.hpp
+[0.571s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/srv/detail/score_trajectory__traits.hpp
+[0.571s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/srv/generate_trajectory.hpp
+[0.571s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/srv/generate_twists.hpp
+[0.571s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/srv/get_critic_score.hpp
+[0.571s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/srv/score_trajectory.hpp
+[0.572s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/msg/detail/critic_score__rosidl_typesupport_introspection_cpp.hpp
+[0.572s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/msg/detail/local_plan_evaluation__rosidl_typesupport_introspection_cpp.hpp
+[0.572s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/msg/detail/trajectory2_d__rosidl_typesupport_introspection_cpp.hpp
+[0.572s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/msg/detail/trajectory_score__rosidl_typesupport_introspection_cpp.hpp
+[0.572s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/srv/detail/debug_local_plan__rosidl_typesupport_introspection_cpp.hpp
+[0.573s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/srv/detail/generate_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[0.573s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/srv/detail/generate_twists__rosidl_typesupport_introspection_cpp.hpp
+[0.573s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/srv/detail/get_critic_score__rosidl_typesupport_introspection_cpp.hpp
+[0.573s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/include/dwb_msgs/srv/detail/score_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[0.573s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/share/dwb_msgs/environment/pythonpath.sh
+[0.573s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/share/dwb_msgs/environment/pythonpath.dsv
+[0.574s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/lib/python3.8/site-packages/dwb_msgs/__init__.py
+[0.574s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/lib/python3.8/site-packages/dwb_msgs/msg/__init__.py
+[0.574s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/lib/python3.8/site-packages/dwb_msgs/msg/_critic_score.py
+[0.575s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/lib/python3.8/site-packages/dwb_msgs/msg/_local_plan_evaluation.py
+[0.575s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/lib/python3.8/site-packages/dwb_msgs/msg/_trajectory2_d.py
+[0.575s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/lib/python3.8/site-packages/dwb_msgs/msg/_trajectory_score.py
+[0.575s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/lib/python3.8/site-packages/dwb_msgs/srv/__init__.py
+[0.576s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/lib/python3.8/site-packages/dwb_msgs/srv/_debug_local_plan.py
+[0.576s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/lib/python3.8/site-packages/dwb_msgs/srv/_generate_trajectory.py
+[0.576s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/lib/python3.8/site-packages/dwb_msgs/srv/_generate_twists.py
+[0.576s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/lib/python3.8/site-packages/dwb_msgs/srv/_get_critic_score.py
+[0.576s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/lib/python3.8/site-packages/dwb_msgs/srv/_score_trajectory.py
+[0.577s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/lib/python3.8/site-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_connext_c.cpython-38-x86_64-linux-gnu.so
+[0.577s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/lib/python3.8/site-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[0.577s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/lib/python3.8/site-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[0.578s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/lib/python3.8/site-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[0.578s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/lib/libdwb_msgs__python.so
+[0.578s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/share/dwb_msgs/msg/CriticScore.idl
+[0.579s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/share/dwb_msgs/msg/LocalPlanEvaluation.idl
+[0.579s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/share/dwb_msgs/msg/Trajectory2D.idl
+[0.579s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/share/dwb_msgs/msg/TrajectoryScore.idl
+[0.580s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/share/dwb_msgs/srv/DebugLocalPlan.idl
+[0.580s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/share/dwb_msgs/srv/GenerateTrajectory.idl
+[0.580s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/share/dwb_msgs/srv/GenerateTwists.idl
+[0.580s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/share/dwb_msgs/srv/GetCriticScore.idl
+[0.581s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/share/dwb_msgs/srv/ScoreTrajectory.idl
+[0.581s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/share/dwb_msgs/msg/CriticScore.msg
+[0.581s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/share/dwb_msgs/msg/LocalPlanEvaluation.msg
+[0.581s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/share/dwb_msgs/msg/Trajectory2D.msg
+[0.582s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/share/dwb_msgs/msg/TrajectoryScore.msg
+[0.582s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/share/dwb_msgs/srv/DebugLocalPlan.srv
+[0.582s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/share/dwb_msgs/srv/DebugLocalPlan_Request.msg
+[0.582s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/share/dwb_msgs/srv/DebugLocalPlan_Response.msg
+[0.583s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/share/dwb_msgs/srv/GenerateTrajectory.srv
+[0.583s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/share/dwb_msgs/srv/GenerateTrajectory_Request.msg
+[0.583s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/share/dwb_msgs/srv/GenerateTrajectory_Response.msg
+[0.583s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/share/dwb_msgs/srv/GenerateTwists.srv
+[0.584s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/share/dwb_msgs/srv/GenerateTwists_Request.msg
+[0.584s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/share/dwb_msgs/srv/GenerateTwists_Response.msg
+[0.584s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/share/dwb_msgs/srv/GetCriticScore.srv
+[0.585s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/share/dwb_msgs/srv/GetCriticScore_Request.msg
+[0.585s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/share/dwb_msgs/srv/GetCriticScore_Response.msg
+[0.585s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/share/dwb_msgs/srv/ScoreTrajectory.srv
+[0.585s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/share/dwb_msgs/srv/ScoreTrajectory_Request.msg
+[0.586s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/share/dwb_msgs/srv/ScoreTrajectory_Response.msg
+[0.586s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/share/ament_index/resource_index/package_run_dependencies/dwb_msgs
+[0.586s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/share/ament_index/resource_index/parent_prefix_path/dwb_msgs
+[0.586s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/share/dwb_msgs/environment/ament_prefix_path.sh
+[0.587s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/share/dwb_msgs/environment/ament_prefix_path.dsv
+[0.587s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/share/dwb_msgs/environment/path.sh
+[0.587s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/share/dwb_msgs/environment/path.dsv
+[0.588s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/share/dwb_msgs/local_setup.bash
+[0.588s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/share/dwb_msgs/local_setup.sh
+[0.588s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/share/dwb_msgs/local_setup.zsh
+[0.588s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/share/dwb_msgs/local_setup.dsv
+[0.589s] -- Symlinking: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/share/dwb_msgs/package.dsv
+[0.597s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/share/ament_index/resource_index/packages/dwb_msgs
+[0.597s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/share/dwb_msgs/cmake/rosidl_cmake-extras.cmake
+[0.597s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/share/dwb_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.597s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/share/dwb_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[0.598s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/share/dwb_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[0.598s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/share/dwb_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.598s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/share/dwb_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.598s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/share/dwb_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.598s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgsConfig.cmake
+[0.599s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgsConfig-version.cmake
+[0.599s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/share/dwb_msgs/package.xml
+[0.599s] -- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/lib/libdwb_msgs__rosidl_generator_c.so
+[0.600s] -- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_introspection_c.so
+[0.600s] -- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_c.so
+[0.600s] -- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_introspection_cpp.so
+[0.601s] -- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_cpp.so
+[0.630s] -- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_generator_cExport.cmake
+[0.631s] -- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_generator_cExport-noconfig.cmake
+[0.631s] -- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_introspection_cExport.cmake
+[0.631s] -- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.631s] -- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_cExport.cmake
+[0.631s] -- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[0.631s] -- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_generator_cppExport.cmake
+[0.631s] -- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[0.631s] -- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.631s] -- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_cppExport.cmake
+[0.632s] -- Up-to-date: /home/propp/Independent_Study/ros_workspace/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[0.634s] Invoked command in '/home/propp/Independent_Study/ros_workspace/build/dwb_msgs' returned '0': AMENT_PREFIX_PATH=/home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/propp/Independent_Study/ros_workspace/install/nav_2d_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/propp/Independent_Study/ros_workspace/build/dwb_msgs

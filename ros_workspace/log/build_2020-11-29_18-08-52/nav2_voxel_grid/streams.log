@@ -1,0 +1,32 @@
+[0.016s] Invoking command in '/home/propp/Independent_Study/ros_workspace/build/nav2_voxel_grid': AMENT_PREFIX_PATH=/home/propp/Independent_Study/ros_workspace/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/propp/Independent_Study/ros_workspace/install/nav2_common:${CMAKE_PREFIX_PATH} PYTHONPATH=/home/propp/Independent_Study/ros_workspace/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/propp/Independent_Study/ros_workspace/build/nav2_voxel_grid -- -j12 -l12
+[0.064s] [ 25%] Built target gtest_main
+[0.070s] [ 75%] Built target gtest
+[0.070s] [ 75%] Built target voxel_grid
+[0.102s] [100%] Built target voxel_grid_tests
+[0.114s] Invoked command in '/home/propp/Independent_Study/ros_workspace/build/nav2_voxel_grid' returned '0': AMENT_PREFIX_PATH=/home/propp/Independent_Study/ros_workspace/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/propp/Independent_Study/ros_workspace/install/nav2_common:${CMAKE_PREFIX_PATH} PYTHONPATH=/home/propp/Independent_Study/ros_workspace/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/propp/Independent_Study/ros_workspace/build/nav2_voxel_grid -- -j12 -l12
+[0.141s] Invoking command in '/home/propp/Independent_Study/ros_workspace/build/nav2_voxel_grid': AMENT_PREFIX_PATH=/home/propp/Independent_Study/ros_workspace/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/propp/Independent_Study/ros_workspace/install/nav2_common:${CMAKE_PREFIX_PATH} PYTHONPATH=/home/propp/Independent_Study/ros_workspace/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/propp/Independent_Study/ros_workspace/build/nav2_voxel_grid
+[0.151s] -- Install configuration: "Release"
+[0.151s] -- Execute custom install script
+[0.152s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav2_voxel_grid/lib/libvoxel_grid.so
+[0.152s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav2_voxel_grid/include/nav2_voxel_grid/voxel_grid.hpp
+[0.153s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/library_path.sh
+[0.153s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/library_path.dsv
+[0.153s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav2_voxel_grid/share/ament_index/resource_index/package_run_dependencies/nav2_voxel_grid
+[0.154s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav2_voxel_grid/share/ament_index/resource_index/parent_prefix_path/nav2_voxel_grid
+[0.154s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/ament_prefix_path.sh
+[0.154s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/ament_prefix_path.dsv
+[0.154s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/path.sh
+[0.155s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/path.dsv
+[0.155s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.bash
+[0.156s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.sh
+[0.156s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.zsh
+[0.156s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.dsv
+[0.156s] -- Symlinking: /home/propp/Independent_Study/ros_workspace/install/nav2_voxel_grid/share/nav2_voxel_grid/package.dsv
+[0.164s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav2_voxel_grid/share/ament_index/resource_index/packages/nav2_voxel_grid
+[0.164s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.165s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.165s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/ament_cmake_export_libraries-extras.cmake
+[0.166s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/nav2_voxel_gridConfig.cmake
+[0.166s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/nav2_voxel_gridConfig-version.cmake
+[0.166s] -- Up-to-date symlink: /home/propp/Independent_Study/ros_workspace/install/nav2_voxel_grid/share/nav2_voxel_grid/package.xml
+[0.169s] Invoked command in '/home/propp/Independent_Study/ros_workspace/build/nav2_voxel_grid' returned '0': AMENT_PREFIX_PATH=/home/propp/Independent_Study/ros_workspace/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/propp/Independent_Study/ros_workspace/install/nav2_common:${CMAKE_PREFIX_PATH} PYTHONPATH=/home/propp/Independent_Study/ros_workspace/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/propp/Independent_Study/ros_workspace/build/nav2_voxel_grid

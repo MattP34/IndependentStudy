@@ -28,13 +28,13 @@
         <plugin filename="libignition-gazebo-triggered-publisher-system.so"
             name="ignition::gazebo::systems::TriggeredPublisher">
             <input type="ignition.msgs.Empty" topic="/start"/>
-            <output type="ignition.msgs.Twist" topic="/robot_back_vel">
-             linear: {x: 0.5}, angular: {z: 0.5}
+            <output type="ignition.msgs.Twist" topic="/robot_vel">
+             linear: {x: 0.0}, angular: {z: 0.5}
             </output>
         </plugin>
         <include>
             <uri>
-                model://marble_husky_sensor_config_2
+                model://X1
             </uri>
         </include>
         <!--<model name="robot">

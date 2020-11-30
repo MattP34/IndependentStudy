@@ -1,0 +1,26 @@
+[0.018s] Invoking command in '/home/propp/Independent_Study/ros_workspace/build/first_ros_package': /usr/bin/cmake --build /home/propp/Independent_Study/ros_workspace/build/first_ros_package -- -j12 -l12
+[0.040s] -- Found ament_cmake: 0.9.7 (/home/propp/ros2_foxy/ros2-linux/share/ament_cmake/cmake)
+[0.057s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.206s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.213s] -- Found rclcpp: 2.2.0 (/home/propp/ros2_foxy/ros2-linux/share/rclcpp/cmake)
+[0.227s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_connext_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.229s] -- Found rosidl_adapter: 1.1.0 (/home/propp/ros2_foxy/ros2-linux/share/rosidl_adapter/cmake)
+[0.231s] -- Found RTI Connext: /opt/rti.com/rti_connext_dds-5.3.1
+[0.514s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_connext_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.552s] -- Found rmw_implementation_cmake: 1.0.1 (/home/propp/ros2_foxy/ros2-linux/share/rmw_implementation_cmake/cmake)
+[0.554s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.620s] -- Found tf2: 0.13.5 (/home/propp/ros2_foxy/ros2-linux/share/tf2/cmake)
+[0.673s] -- Found tf2_ros: 0.13.5 (/home/propp/ros2_foxy/ros2-linux/share/tf2_ros/cmake)
+[0.921s] -- Found nav_msgs: 2.0.3 (/home/propp/ros2_foxy/ros2-linux/share/nav_msgs/cmake)
+[0.977s] -- Found sensor_msgs: 2.0.3 (/home/propp/ros2_foxy/ros2-linux/share/sensor_msgs/cmake)
+[1.033s] CMake Error at /home/propp/ros2_foxy/ros2-linux/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:40 (message):
+[1.033s]   ament_target_dependencies() the first argument must be a valid target name
+[1.033s] Call Stack (most recent call first):
+[1.033s]   CMakeLists.txt:27 (ament_target_dependencies)
+[1.034s] 
+[1.034s] 
+[1.035s] -- Configuring incomplete, errors occurred!
+[1.035s] See also "/home/propp/Independent_Study/ros_workspace/build/first_ros_package/CMakeFiles/CMakeOutput.log".
+[1.035s] See also "/home/propp/Independent_Study/ros_workspace/build/first_ros_package/CMakeFiles/CMakeError.log".
+[1.041s] make: *** [Makefile:266: cmake_check_build_system] Error 1
+[1.043s] Invoked command in '/home/propp/Independent_Study/ros_workspace/build/first_ros_package' returned '2': /usr/bin/cmake --build /home/propp/Independent_Study/ros_workspace/build/first_ros_package -- -j12 -l12

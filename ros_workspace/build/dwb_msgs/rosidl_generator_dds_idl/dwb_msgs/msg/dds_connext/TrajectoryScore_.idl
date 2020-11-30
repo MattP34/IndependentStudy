@@ -1,0 +1,34 @@
+// generated from rosidl_generator_dds_idl/resource/idl.idl.em
+// with input from dwb_msgs:msg/TrajectoryScore.idl
+// generated code does not contain a copyright notice
+#include "dwb_msgs/msg/dds_connext/CriticScore_.idl"
+#include "dwb_msgs/msg/dds_connext/Trajectory2D_.idl"
+
+#ifndef __dwb_msgs__msg__trajectory_score__idl__
+#define __dwb_msgs__msg__trajectory_score__idl__
+
+
+module dwb_msgs {
+
+module msg {
+
+module dds_ {
+
+
+struct TrajectoryScore_ {
+dwb_msgs::msg::dds_::Trajectory2D_ traj_;
+sequence<dwb_msgs::msg::dds_::CriticScore_> scores_;
+
+float total_;
+
+};
+
+
+};  // module dds_
+
+};  // module msg
+
+};  // module dwb_msgs
+
+
+#endif  // __dwb_msgs__msg__trajectory_score__idl__

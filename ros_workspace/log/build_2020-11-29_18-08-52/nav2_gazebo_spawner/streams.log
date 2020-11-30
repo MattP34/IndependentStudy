@@ -1,0 +1,17 @@
+[0.233s] Invoking command in '/home/propp/Independent_Study/ros_workspace/build/nav2_gazebo_spawner': PYTHONPATH=/home/propp/Independent_Study/ros_workspace/install/nav2_gazebo_spawner/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/propp/Independent_Study/ros_workspace/install/nav2_gazebo_spawner --editable --build-directory /home/propp/Independent_Study/ros_workspace/build/nav2_gazebo_spawner/build --no-deps install_data --install-dir /home/propp/Independent_Study/ros_workspace/install/nav2_gazebo_spawner
+[0.433s] running develop
+[0.572s] running egg_info
+[0.573s] writing nav2_gazebo_spawner.egg-info/PKG-INFO
+[0.573s] writing dependency_links to nav2_gazebo_spawner.egg-info/dependency_links.txt
+[0.573s] writing entry points to nav2_gazebo_spawner.egg-info/entry_points.txt
+[0.573s] writing requirements to nav2_gazebo_spawner.egg-info/requires.txt
+[0.574s] writing top-level names to nav2_gazebo_spawner.egg-info/top_level.txt
+[0.609s] reading manifest file 'nav2_gazebo_spawner.egg-info/SOURCES.txt'
+[0.609s] writing manifest file 'nav2_gazebo_spawner.egg-info/SOURCES.txt'
+[0.611s] running build_ext
+[0.611s] Creating /home/propp/Independent_Study/ros_workspace/install/nav2_gazebo_spawner/lib/python3.8/site-packages/nav2-gazebo-spawner.egg-link (link to .)
+[0.612s] Installing nav2_gazebo_spawner script to /home/propp/Independent_Study/ros_workspace/install/nav2_gazebo_spawner/lib/nav2_gazebo_spawner
+[0.612s] 
+[0.612s] Installed /home/propp/Independent_Study/ros_workspace/build/nav2_gazebo_spawner
+[0.612s] running install_data
+[0.636s] Invoked command in '/home/propp/Independent_Study/ros_workspace/build/nav2_gazebo_spawner' returned '0': PYTHONPATH=/home/propp/Independent_Study/ros_workspace/install/nav2_gazebo_spawner/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/propp/Independent_Study/ros_workspace/install/nav2_gazebo_spawner --editable --build-directory /home/propp/Independent_Study/ros_workspace/build/nav2_gazebo_spawner/build --no-deps install_data --install-dir /home/propp/Independent_Study/ros_workspace/install/nav2_gazebo_spawner

@@ -1,0 +1,9 @@
+[0.017s] Invoking command in '/home/propp/Independent_Study/ros_workspace/build/pointcloud_to_laserscan': /usr/bin/cmake --build /home/propp/Independent_Study/ros_workspace/build/pointcloud_to_laserscan -- -j12 -l12
+[0.058s] [35m[1mScanning dependencies of target pointcloud_to_laserscan[0m
+[0.063s] [ 20%] Built target dummy_pointcloud_publisher
+[0.065s] [ 40%] Built target pointcloud_to_laserscan_node
+[0.069s] [ 60%] Built target laserscan_to_pointcloud_node
+[0.070s] [ 80%] Built target laserscan_to_pointcloud
+[0.092s] [ 90%] [32mBuilding CXX object CMakeFiles/pointcloud_to_laserscan.dir/src/pointcloud_to_laserscan_node.cpp.o[0m
+[6.049s] [100%] [32m[1mLinking CXX shared library libpointcloud_to_laserscan.so[0m
+[6.323s] [100%] Built target pointcloud_to_laserscan
