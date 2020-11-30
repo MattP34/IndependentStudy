@@ -19,6 +19,7 @@
 #include <math.h>
 
 #include "rclcpp/rclcpp.hpp"
+#include "tf2/LinearMath/Quaternion.h"
 #include "tf2_ros/transform_broadcaster.h"
 #include "geometry_msgs/msg/transform_stamped.hpp"
 #include "geometry_msgs/msg/point32.hpp"
@@ -39,7 +40,12 @@ public:
   OdometryFromLidar(): Node("odemetry_from_lidar") {
       pointCloudSub_ = this->create_subscription<sensor_msgs::msg::PointCloud2>("/lidar/points",
       rclcpp::QoS(10), std::bind(&OdometryFromLidar::topic_callback, this, std::placeholders::_1));
+      pointCloudPublisher_ = this->create_publisher<sensor_msgs::msg::PointCloud>("total_point_cloud", rclcpp::QoS(10));
       lastPoints = sensor_msgs::msg::PointCloud();
+      allPoints = sensor_msgs::msg::PointCloud();
+      x_pos = 0;
+      y_pos = 0;
+      theta = 0;
   }
 
 private:
@@ -68,6 +74,54 @@ private:
             rotation+=theta_partial*learning_rate;
             curr_offset = determine_offset(transformPointCloudCopy(p1,x_trans,y_trans,rotation),lastPoints);
         }
+        this->x_pos += x_trans;
+        this->y_pos += y_trans;
+        this->theta += rotation;
+        x_trans = 0.0;
+        y_trans= 0.0;
+        rotation = 0.0;
+        x_partial = 10; //doesn't really matter as long as while is true
+        y_partial = 10;
+        theta_partial = 10;
+        learning_rate = (double)(msg->header.stamp.nanosec)/1000000000.0*0.1; //tune
+        last_offset = 1000000000; //big_number
+        curr_offset = -5;
+        while(x_partial+y_partial+theta_partial > 0.01 || last_offset < curr_offset) { //tune
+            if(curr_offset < -1) {
+                last_offset = determine_offset(p1,allPoints);
+            } else{
+                last_offset = curr_offset;
+            }
+            x_partial = (determine_offset(transformPointCloudCopy(p1,0.01,0,0),allPoints)-last_offset)/0.01; //tune
+            y_partial = (determine_offset(transformPointCloudCopy(p1,0,0.01,0),allPoints)-last_offset)/0.01;
+            theta_partial = (determine_offset(transformPointCloudCopy(p1,0,0,0.01),allPoints)-last_offset)/0.01;
+            x_trans+=x_partial*learning_rate;
+            y_trans+=y_partial*learning_rate;
+            rotation+=theta_partial*learning_rate;
+            curr_offset = determine_offset(transformPointCloudCopy(p1,x_trans,y_trans,rotation),allPoints);
+        }
+        this->x_pos += x_trans;
+        this->y_pos += y_trans;
+        this->theta += rotation;
+        tf2::Quaternion q;
+        q.setRPY(0,0,rotation);
+        tf2_ros::TransformBroadcaster br = tf2_ros::TransformBroadcaster(Node("test_tf"));
+        geometry_msgs::msg::TransformStamped transformStamped;
+        transformStamped.header.stamp.sec = msg->header.stamp.sec;
+        transformStamped.header.stamp.nanosec = msg->header.stamp.nanosec;
+        transformStamped.header.frame_id = "map";
+        transformStamped.child_frame_id = msg->header.frame_id;
+        transformStamped.transform.translation.x = this->x_pos;
+        transformStamped.transform.translation.y = this->y_pos;
+        transformStamped.transform.translation.z = 0.0;
+        transformStamped.transform.rotation.x = q.x;
+        transformStamped.transform.rotation.y = q.y;
+        transformStamped.transform.rotation.z = q.z;
+        transformStamped.transform.rotation.w = q.w;
+        br.sendTransform(transformStamped);
+        add_pointcloud(p1);
+        lastPoints = p1;
+        pointCloudPublisher_->publish(allPoints);
     }
 
     static bool sortX(geometry_msgs::msg::Point32 p1, geometry_msgs::msg::Point32 p2) {
@@ -78,10 +132,51 @@ private:
         return p1.y<p2.y;
     }
 
-    static double determine_offset_helper(std::vector<geometry_msgs::msg::Point32> v1, std::vector<geometry_msgs::msg::Point32> xsort2) {
+    static int closest_point(geometry_msgs::msg::Point32 point, std::vector<geometry_msgs::msg::Point32> &xsort2) {
+        int minIndex = 0;
+        int maxIndex = xsort2.size();
+        int index;
+        double xDist = 0.0;
+        double yDist = 0.0;
+        double residual = 10000000.0; //big number
+        int returnIndex = 0;
+        geometry_msgs::msg::Point32 returnPoint = geometry_msgs::msg::Point32();
+        while(minIndex != maxIndex) {
+            index = (maxIndex-minIndex)/2;
+            if(v1[i].x == xsort2[index].x) {
+                break;
+            } else if(v1[i].x < xsort2[index].x) {
+                maxIndex = index;
+            } else {
+                minIndex = index;
+            }
+        }
+        double tempr;
+        for(int i = index; i >= 0 && pow(point.x-xsort2[j].x,2) < residual; i--) {
+            tempr = pow(point.x-xsort2[i].x,2)+pow(point.y-xsort2[i].y,2);
+            if(tempr < residual) {
+                residual = tempr;
+                returnIndex = i;
+                //returnPoint.set__x(xsort2[i].x);
+                //returnPoint.set__y(xsort2[i].y);
+            }
+        }
+        for(int i = index; i < xsort2.size() && pow(point.x-xsort2[i].x,2) < residual; i++) {
+            tempr = pow(point.x-xsort2[i].x,2)+pow(point.y-xsort2[i].y,2);
+            if(tempr < residual) {
+                residual = tempr;
+                returnIndex = i;
+                //returnPoint.set__x(xsort2[i].x);
+                //returnPoint.set__y(xsort2[i].y);
+            }
+        }
+        return returnIndex;
+    }
+
+    static double determine_offset_helper(std::vector<geometry_msgs::msg::Point32> &v1, std::vector<geometry_msgs::msg::Point32> &xsort2) {
         double residualSum = 0.0;
         for(int i = 0; i < v1.size(); i++) {
-            int minIndex = 0;
+            /*int minIndex = 0;
             int maxIndex = xsort2.size();
             int index;
             double xDist = 0.0;
@@ -110,12 +205,30 @@ private:
                     residual = tempr;
                 }
             }
-            residualSum+=residual;
+            residualSum+=residual;*/
+            int index = closest_point(v1[i],xsort2);
+            residualSum += pow(v1[i].x+xsort2[index].x,2)+pow(v1[i].y,xsort2[index].y,2);
         }
         return residualSum;
     }
 
-    double determine_offset(sensor_msgs::msg::PointCloud  pc1, sensor_msgs::msg::PointCloud  pc2) {
+    void add_pointcloud(sensor_msgs::msg::PointCloud &pc) {
+        std::vector<geometry_msgs::msg::Point32> v1 = pc.points;
+        for(int i = 0; i < v1.size(); i++) {
+            int index = closest_point(v1[i],allPoints.points);
+            if(sqrt(pow(v1[i].x-allPoints.points[index].x,2)+pow(v1[i].y-allPoints.points[index].y,2)) < 0.005) { //change value
+                allPoints.points[index].set__x(v1[i].x);
+                allPoints.points[index].set__y(v1[i].y);
+            } else {
+                geometry_msgs::msg::Point32 tempPoint = geometry_msgs::msg::Point32();
+                tempPoint.set__x(v1[i].x);
+                tempPoint.set__y(v1[i].y);
+                allPoints.points.push_back(tempPoint);
+            }
+        }
+    }
+
+    double determine_offset(sensor_msgs::msg::PointCloud  &pc1, sensor_msgs::msg::PointCloud &pc2) {
         std::vector<geometry_msgs::msg::Point32> v1 = pc1.points;
         std::vector<geometry_msgs::msg::Point32> v2 = pc1.points;
         std::vector<geometry_msgs::msg::Point32> xsort1 = std::vector<geometry_msgs::msg::Point32>(v1.size());
@@ -128,10 +241,10 @@ private:
             xsort2[i] = v2[i];
         }
         std::sort(xsort2.begin(),xsort2.end(),sortX);
-        return determine_offset_helper(v1,xsort2)+(v2,xsort1);
+        return determine_offset_helper(v1,xsort2);
     }
 
-    void transformPointCloud(sensor_msgs::msg::PointCloud pc, double x, double y, double theta) {
+    void transformPointCloud(sensor_msgs::msg::PointCloud &pc, double x, double y, double theta) {
         for(int i = 0; i < pc.points.size(); i++) {
             pc.points[i].set__x(pc.points[i].x+x);
             pc.points[i].set__y(pc.points[i].y+y);
@@ -152,8 +265,12 @@ private:
         transformPointCloud(pcCopy,x,y,theta);
         return pcCopy;
     }
+
     sensor_msgs::msg::PointCloud lastPoints;
-    std::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::PointCloud2>> pointCloudSub_;
+    sensor_msgs::msg::PointCloud allPoints;
+    std::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::PointCloud>> pointCloudSub_;
+    std::shared_ptr<rclcpp::Publisher<std_msgs::msg::String>> pointCloudPublisher_;
+    double x_pos, y_pos, theta;
 };
 
 int main(int argc, char * argv[])
