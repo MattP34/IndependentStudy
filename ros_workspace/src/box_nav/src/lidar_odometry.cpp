@@ -29,6 +29,8 @@
 #include <nav_msgs/msg/odometry.hpp>
 #include "std_msgs/msg/string.hpp"
 
+#include <pointcloud_to_laserscan/laserscan_to_pointcloud_node.hpp>
+
 using namespace std::chrono_literals;
 
 /* This example creates a subclass of Node and uses std::bind() to register a
@@ -52,12 +54,14 @@ public:
 
 private:
     void topic_callback(std::shared_ptr<const sensor_msgs::msg::PointCloud2> msg) {
+        RCLCPP_INFO(this->get_logger(), "published: 1 ", "test2");
         sensor_msgs::msg::PointCloud p1 = sensor_msgs::msg::PointCloud();
         sensor_msgs::convertPointCloud2ToPointCloud(*msg,p1);
         for(int i = 0; i < p1.points.size(); i++) {
             if(isinf(p1.points[i].x) || isinf(p1.points[i].y)) {
                 p1.points.erase(p1.points.begin() + i);
-                i--;            }
+                i--;            
+            }
         }
         if(lastPoints.points.size()==0) {
             lastPoints = p1;
@@ -83,26 +87,26 @@ private:
         while(abs(x_partial)+abs(y_partial)+abs(theta_partial) > 0.0001) { //tune
             RCLCPP_INFO(this->get_logger(), "published: 7", "test2");
             if(curr_offset < -1) {
-                last_offset = determine_offset(transformPointCloudCopy(p1,x_pos,0,0),lastPoints);
+                last_offset = determine_offset(transformPointCloudCopy(p1,x_pos,y_pos,theta),lastPoints);
             } else{
                 last_offset = curr_offset;
             }
-            x_partial = (determine_offset(transformPointCloudCopy(p1,x_pos+x_trans+0.00001,0,0),lastPoints)-last_offset)/0.00001; //tune
+            x_partial = (determine_offset(transformPointCloudCopy(p1,x_pos+x_trans+0.00001,y_pos+y_trans,theta+rotation),lastPoints)-last_offset)/0.00001; //tune
             RCLCPP_INFO(this->get_logger(), "published: 10", "test2");
-            y_partial = 0;//(determine_offset(transformPointCloudCopy(p1,0,0.0001,0),allPoints)-last_offset)/0.0001;
-            theta_partial = 0;//(determine_offset(transformPointCloudCopy(p1,0,0,0.0001),allPoints)-last_offset)/0.0001;
+            y_partial = (determine_offset(transformPointCloudCopy(p1,x_pos+x_trans,y_pos+y_trans+0.00001,theta+rotation),lastPoints)-last_offset)/0.00001; //tune
+            theta_partial = (determine_offset(transformPointCloudCopy(p1,x_pos+x_trans,y_pos+y_trans,theta+rotation+0.00001),lastPoints)-last_offset)/0.00001; //tune
             RCLCPP_INFO(this->get_logger(), "partials:"+std::to_string(x_partial)+" "+std::to_string(y_partial)+ " "+std::to_string(theta_partial), "test2");
-            curr_offset = determine_offset(transformPointCloudCopy(p1,x_pos+x_trans-x_partial*learning_rate,y_trans-y_partial*learning_rate,rotation-theta_partial*learning_rate),lastPoints);
+            curr_offset = determine_offset(transformPointCloudCopy(p1,x_pos+x_trans-x_partial*learning_rate,y_pos+y_trans-y_partial*learning_rate,theta+rotation-theta_partial*learning_rate),lastPoints);
             RCLCPP_INFO(this->get_logger(), "offsets:"+std::to_string(last_offset)+" "+std::to_string(curr_offset), "test2");
-            RCLCPP_INFO(this->get_logger(), "Positions :"+std::to_string(x_partial*learning_rate*-1)+" "+std::to_string(y_partial*learning_rate*-1), "test2");
+            RCLCPP_INFO(this->get_logger(), "Positions :"+std::to_string(x_partial*learning_rate*-1)+" "+std::to_string(y_partial*learning_rate*-1) + " "+std::to_string(theta_partial*learning_rate*-1), "test2");
             if(curr_offset > last_offset) {
                 break;
             }
             RCLCPP_INFO(this->get_logger(), "published: 14:"+std::to_string(abs(x_partial)+abs(y_partial)+abs(theta_partial)), "test2");
             x_trans+=x_partial*learning_rate*-1;
             y_trans+=y_partial*learning_rate*-1;
-            RCLCPP_INFO(this->get_logger(), "x_trans:"+std::to_string(x_trans), "test2");
-            rotation+=theta_partial*learning_rate;
+            rotation+=theta_partial*learning_rate*-1;
+            RCLCPP_INFO(this->get_logger(), "rotation:"+std::to_string(rotation), "test2");
         }
         RCLCPP_INFO(this->get_logger(), "published: 6", "test2");
         this->x_pos += x_trans;
@@ -120,26 +124,26 @@ private:
         while(abs(x_partial)+abs(y_partial)+abs(theta_partial) > 0.0001) { //tune
             RCLCPP_INFO(this->get_logger(), "published: 7", "test2");
             if(curr_offset < -1) {
-                last_offset = determine_offset(transformPointCloudCopy(p1,x_pos,0,0),allPoints);
+                last_offset = determine_offset(transformPointCloudCopy(p1,x_pos,y_pos,theta),allPoints);
             } else{
                 last_offset = curr_offset;
             }
-            x_partial = (determine_offset(transformPointCloudCopy(p1,x_pos+x_trans+0.00001,0,0),allPoints)-last_offset)/0.00001; //tune
+            x_partial = (determine_offset(transformPointCloudCopy(p1,x_pos+x_trans+0.00001,y_pos+y_trans,theta+rotation),allPoints)-last_offset)/0.00001; //tune
             RCLCPP_INFO(this->get_logger(), "published: 10", "test2");
-            y_partial = 0;//(determine_offset(transformPointCloudCopy(p1,0,0.0001,0),allPoints)-last_offset)/0.0001;
-            theta_partial = 0;//(determine_offset(transformPointCloudCopy(p1,0,0,0.0001),allPoints)-last_offset)/0.0001;
+            y_partial = (determine_offset(transformPointCloudCopy(p1,x_pos+x_trans,y_pos+y_trans+0.00001,theta+rotation),allPoints)-last_offset)/0.00001; //tune
+            theta_partial = (determine_offset(transformPointCloudCopy(p1,x_pos+x_trans,y_pos+y_trans,theta+rotation+0.000001),allPoints)-last_offset)/0.000001; //tune
             RCLCPP_INFO(this->get_logger(), "partials:"+std::to_string(x_partial)+" "+std::to_string(y_partial)+ " "+std::to_string(theta_partial), "test2");
-            curr_offset = determine_offset(transformPointCloudCopy(p1,x_pos+x_trans-x_partial*learning_rate,y_trans-y_partial*learning_rate,rotation-theta_partial*learning_rate),allPoints);
+            curr_offset = determine_offset(transformPointCloudCopy(p1,x_pos+x_trans-x_partial*learning_rate,y_pos+y_trans-y_partial*learning_rate,theta+rotation-theta_partial*learning_rate),allPoints);
             RCLCPP_INFO(this->get_logger(), "offsets:"+std::to_string(last_offset)+" "+std::to_string(curr_offset), "test2");
-            RCLCPP_INFO(this->get_logger(), "Positions :"+std::to_string(x_partial*learning_rate*-1)+" "+std::to_string(y_partial*learning_rate*-1), "test2");
+            RCLCPP_INFO(this->get_logger(), "Positions :"+std::to_string(x_partial*learning_rate*-1)+" "+std::to_string(y_partial*learning_rate*-1) + " "+std::to_string(theta_partial*learning_rate*-1), "test2");
             if(curr_offset > last_offset) {
                 break;
             }
             RCLCPP_INFO(this->get_logger(), "published: 14:"+std::to_string(abs(x_partial)+abs(y_partial)+abs(theta_partial)), "test2");
             x_trans+=x_partial*learning_rate*-1;
             y_trans+=y_partial*learning_rate*-1;
-            RCLCPP_INFO(this->get_logger(), "x_trans:"+std::to_string(x_trans), "test2");
-            rotation+=theta_partial*learning_rate;
+            rotation+=theta_partial*learning_rate*-1;
+            RCLCPP_INFO(this->get_logger(), "rotation:"+std::to_string(rotation), "test2");
         }
         RCLCPP_INFO(this->get_logger(), "published: 8", "test2");
         this->x_pos += x_trans;
@@ -161,8 +165,9 @@ private:
         transformStamped.transform.rotation.z = q.getZ();
         transformStamped.transform.rotation.w = q.getW();
         br.sendTransform(transformStamped);
-        add_pointcloud(transformPointCloudCopy(p1,x_pos,0,0));
+        add_pointcloud(transformPointCloudCopy(p1,x_pos,y_pos,theta));
         transformPointCloud(p1,x_pos,y_pos,theta);
+        lastPoints = p1;
         last_time = (double)(msg->header.stamp.nanosec)/1000000000.0;
         sensor_msgs::msg::PointCloud exportCloud = transformPointCloudCopy(allPoints,x_pos*-1,y_pos*-1,theta*-1);
         exportCloud.header.set__stamp(msg->header.stamp);
@@ -215,9 +220,10 @@ private:
                 minIndex = index;
             }
         }
-        /*double tempr;
-        for(int i = index; i >= 0 && pow(point.x-xsort2[i].x,2) < residual; i--) {
-            tempr = pow(point.x-xsort2[i].x,2)+pow(point.y-xsort2[i].y,2);
+        returnIndex = index;
+        double tempr;
+        for(int i = index; i >= 0 && abs(point.x-xsort2[i].x) < residual; i--) {
+            tempr = sqrt(pow(point.x-xsort2[i].x,2)+pow(point.y-xsort2[i].y,2));
             if(tempr < residual) {
                 residual = tempr;
                 returnIndex = i;
@@ -226,17 +232,17 @@ private:
             }
         }
         for(int i = index; i < (int)xsort2.size() && pow(point.x-xsort2[i].x,2) < residual; i++) {
-            tempr = pow(point.x-xsort2[i].x,2)+pow(point.y-xsort2[i].y,2);
+            tempr = sqrt(pow(point.x-xsort2[i].x,2)+pow(point.y-xsort2[i].y,2));
             if(tempr < residual) {
                 residual = tempr;
                 returnIndex = i;
                 //returnPoint.set__x(xsort2[i].x);
                 //returnPoint.set__y(xsort2[i].y);
             }
-        }*/
+        }
         RCLCPP_INFO(this->get_logger(), "1st_Point:x:" +std::to_string(point.x)+" y:"+std::to_string(point.y), "test2");
-        RCLCPP_INFO(this->get_logger(), "closest_pair:x:"+std::to_string(xsort2[index].x)+" y:"+std::to_string(xsort2[index].y), "test2");
-        return index;//returnIndex;
+        RCLCPP_INFO(this->get_logger(), "closest_pair:x:"+std::to_string(xsort2[returnIndex].x)+" y:"+std::to_string(xsort2[returnIndex].y), "test2");
+        return returnIndex;
     }
 
     double determine_offset_helper(std::vector<geometry_msgs::msg::Point32> v1, std::vector<geometry_msgs::msg::Point32> xsort2) {
@@ -273,7 +279,7 @@ private:
             }
             residualSum+=residual;*/
             int index = closest_point(v1[i],xsort2);
-            residualSum += abs(v1[i].x-xsort2[index].x);//pow(v1[i].x-xsort2[index].x,2);//+pow(v1[i].y-xsort2[index].y,2);
+            residualSum += sqrt(pow(v1[i].x-xsort2[index].x,2)+pow(v1[i].y-xsort2[index].y,2));
         }
         return residualSum/v1.size();
     }

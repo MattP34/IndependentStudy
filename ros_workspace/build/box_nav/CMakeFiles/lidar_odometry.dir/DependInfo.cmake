@@ -17,6 +17,8 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "/home/propp/Independent_Study/ros_workspace/src/box_nav/include"
+  "/usr/include/eigen3"
   "/opt/ros/foxy/include"
   )
 
