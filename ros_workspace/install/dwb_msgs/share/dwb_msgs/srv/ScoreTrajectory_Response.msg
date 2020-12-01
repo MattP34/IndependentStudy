@@ -1,1 +1,0 @@
-/home/propp/Independent_Study/ros_workspace/build/dwb_msgs/rosidl_cmake/srv/ScoreTrajectory_Response.msg

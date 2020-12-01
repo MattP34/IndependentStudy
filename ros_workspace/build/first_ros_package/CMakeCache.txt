@@ -25,7 +25,7 @@ AMENT_CMAKE_ENVIRONMENT_PARENT_PREFIX_PATH_GENERATION:BOOL=ON
 
 //Replace the CMake install command with a custom implementation
 // using symlinks instead of copying resources
-AMENT_CMAKE_SYMLINK_INSTALL:BOOL=1
+AMENT_CMAKE_SYMLINK_INSTALL:BOOL=OFF
 
 //Generate an uninstall target to revert the effects of the install
 // step
@@ -236,16 +236,16 @@ CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 FastCDR_LIBRARY_DEBUG:FILEPATH=FastCDR_LIBRARY_DEBUG-NOTFOUND
 
 //Path to a library.
-FastCDR_LIBRARY_RELEASE:FILEPATH=/home/propp/ros2_foxy/ros2-linux/lib/libfastcdr.so
+FastCDR_LIBRARY_RELEASE:FILEPATH=/opt/ros/foxy/lib/libfastcdr.so
 
 //Path to a file.
-FastRTPS_INCLUDE_DIR:PATH=/home/propp/ros2_foxy/ros2-linux/include
+FastRTPS_INCLUDE_DIR:PATH=/opt/ros/foxy/include
 
 //Path to a library.
 FastRTPS_LIBRARY_DEBUG:FILEPATH=FastRTPS_LIBRARY_DEBUG-NOTFOUND
 
 //Path to a library.
-FastRTPS_LIBRARY_RELEASE:FILEPATH=/home/propp/ros2_foxy/ros2-linux/lib/libfastrtps.so
+FastRTPS_LIBRARY_RELEASE:FILEPATH=/opt/ros/foxy/lib/libfastrtps.so
 
 //Path to a library.
 OPENSSL_CRYPTO_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libcrypto.so
@@ -272,82 +272,79 @@ SITE:STRING=Propp-PC
 TinyXML2_DIR:PATH=TinyXML2_DIR-NOTFOUND
 
 //Path to a library.
-_lib:FILEPATH=/home/propp/ros2_foxy/ros2-linux/lib/libsensor_msgs__rosidl_typesupport_fastrtps_cpp.so
+_lib:FILEPATH=/opt/ros/foxy/lib/libsensor_msgs__rosidl_typesupport_fastrtps_cpp.so
 
 //The directory containing a CMake configuration file for action_msgs.
-action_msgs_DIR:PATH=/home/propp/ros2_foxy/ros2-linux/share/action_msgs/cmake
+action_msgs_DIR:PATH=/opt/ros/foxy/share/action_msgs/cmake
 
 //The directory containing a CMake configuration file for ament_cmake.
-ament_cmake_DIR:PATH=/home/propp/ros2_foxy/ros2-linux/share/ament_cmake/cmake
+ament_cmake_DIR:PATH=/opt/ros/foxy/share/ament_cmake/cmake
 
 //The directory containing a CMake configuration file for ament_cmake_core.
-ament_cmake_core_DIR:PATH=/home/propp/ros2_foxy/ros2-linux/share/ament_cmake_core/cmake
+ament_cmake_core_DIR:PATH=/opt/ros/foxy/share/ament_cmake_core/cmake
 
 //The directory containing a CMake configuration file for ament_cmake_export_definitions.
-ament_cmake_export_definitions_DIR:PATH=/home/propp/ros2_foxy/ros2-linux/share/ament_cmake_export_definitions/cmake
+ament_cmake_export_definitions_DIR:PATH=/opt/ros/foxy/share/ament_cmake_export_definitions/cmake
 
 //The directory containing a CMake configuration file for ament_cmake_export_dependencies.
-ament_cmake_export_dependencies_DIR:PATH=/home/propp/ros2_foxy/ros2-linux/share/ament_cmake_export_dependencies/cmake
+ament_cmake_export_dependencies_DIR:PATH=/opt/ros/foxy/share/ament_cmake_export_dependencies/cmake
 
 //The directory containing a CMake configuration file for ament_cmake_export_include_directories.
-ament_cmake_export_include_directories_DIR:PATH=/home/propp/ros2_foxy/ros2-linux/share/ament_cmake_export_include_directories/cmake
+ament_cmake_export_include_directories_DIR:PATH=/opt/ros/foxy/share/ament_cmake_export_include_directories/cmake
 
 //The directory containing a CMake configuration file for ament_cmake_export_interfaces.
-ament_cmake_export_interfaces_DIR:PATH=/home/propp/ros2_foxy/ros2-linux/share/ament_cmake_export_interfaces/cmake
+ament_cmake_export_interfaces_DIR:PATH=/opt/ros/foxy/share/ament_cmake_export_interfaces/cmake
 
 //The directory containing a CMake configuration file for ament_cmake_export_libraries.
-ament_cmake_export_libraries_DIR:PATH=/home/propp/ros2_foxy/ros2-linux/share/ament_cmake_export_libraries/cmake
+ament_cmake_export_libraries_DIR:PATH=/opt/ros/foxy/share/ament_cmake_export_libraries/cmake
 
 //The directory containing a CMake configuration file for ament_cmake_export_link_flags.
-ament_cmake_export_link_flags_DIR:PATH=/home/propp/ros2_foxy/ros2-linux/share/ament_cmake_export_link_flags/cmake
+ament_cmake_export_link_flags_DIR:PATH=/opt/ros/foxy/share/ament_cmake_export_link_flags/cmake
 
 //The directory containing a CMake configuration file for ament_cmake_export_targets.
-ament_cmake_export_targets_DIR:PATH=/home/propp/ros2_foxy/ros2-linux/share/ament_cmake_export_targets/cmake
+ament_cmake_export_targets_DIR:PATH=/opt/ros/foxy/share/ament_cmake_export_targets/cmake
 
 //The directory containing a CMake configuration file for ament_cmake_include_directories.
-ament_cmake_include_directories_DIR:PATH=/home/propp/ros2_foxy/ros2-linux/share/ament_cmake_include_directories/cmake
+ament_cmake_include_directories_DIR:PATH=/opt/ros/foxy/share/ament_cmake_include_directories/cmake
 
 //The directory containing a CMake configuration file for ament_cmake_libraries.
-ament_cmake_libraries_DIR:PATH=/home/propp/ros2_foxy/ros2-linux/share/ament_cmake_libraries/cmake
+ament_cmake_libraries_DIR:PATH=/opt/ros/foxy/share/ament_cmake_libraries/cmake
 
 //The directory containing a CMake configuration file for ament_cmake_python.
-ament_cmake_python_DIR:PATH=/home/propp/ros2_foxy/ros2-linux/share/ament_cmake_python/cmake
+ament_cmake_python_DIR:PATH=/opt/ros/foxy/share/ament_cmake_python/cmake
 
 //The directory containing a CMake configuration file for ament_cmake_target_dependencies.
-ament_cmake_target_dependencies_DIR:PATH=/home/propp/ros2_foxy/ros2-linux/share/ament_cmake_target_dependencies/cmake
+ament_cmake_target_dependencies_DIR:PATH=/opt/ros/foxy/share/ament_cmake_target_dependencies/cmake
 
 //The directory containing a CMake configuration file for ament_cmake_test.
-ament_cmake_test_DIR:PATH=/home/propp/ros2_foxy/ros2-linux/share/ament_cmake_test/cmake
+ament_cmake_test_DIR:PATH=/opt/ros/foxy/share/ament_cmake_test/cmake
 
 //The directory containing a CMake configuration file for ament_cmake_version.
-ament_cmake_version_DIR:PATH=/home/propp/ros2_foxy/ros2-linux/share/ament_cmake_version/cmake
+ament_cmake_version_DIR:PATH=/opt/ros/foxy/share/ament_cmake_version/cmake
 
 //The directory containing a CMake configuration file for ament_index_cpp.
-ament_index_cpp_DIR:PATH=/home/propp/ros2_foxy/ros2-linux/share/ament_index_cpp/cmake
+ament_index_cpp_DIR:PATH=/opt/ros/foxy/share/ament_index_cpp/cmake
 
 //The directory containing a CMake configuration file for builtin_interfaces.
-builtin_interfaces_DIR:PATH=/home/propp/ros2_foxy/ros2-linux/share/builtin_interfaces/cmake
+builtin_interfaces_DIR:PATH=/opt/ros/foxy/share/builtin_interfaces/cmake
 
 //The directory containing a CMake configuration file for class_loader.
-class_loader_DIR:PATH=/home/propp/ros2_foxy/ros2-linux/share/class_loader/cmake
+class_loader_DIR:PATH=/opt/ros/foxy/share/class_loader/cmake
 
 //The directory containing a CMake configuration file for composition_interfaces.
-composition_interfaces_DIR:PATH=/home/propp/ros2_foxy/ros2-linux/share/composition_interfaces/cmake
-
-//The directory containing a CMake configuration file for connext_cmake_module.
-connext_cmake_module_DIR:PATH=/home/propp/ros2_foxy/ros2-linux/share/connext_cmake_module/cmake
+composition_interfaces_DIR:PATH=/opt/ros/foxy/share/composition_interfaces/cmake
 
 //The directory containing a CMake configuration file for console_bridge.
-console_bridge_DIR:PATH=/home/propp/ros2_foxy/ros2-linux/lib/console_bridge/cmake
+console_bridge_DIR:PATH=/opt/ros/foxy/lib/console_bridge/cmake
 
 //The directory containing a CMake configuration file for fastcdr.
-fastcdr_DIR:PATH=/home/propp/ros2_foxy/ros2-linux/lib/cmake/fastcdr
+fastcdr_DIR:PATH=/opt/ros/foxy/lib/cmake/fastcdr
 
 //The directory containing a CMake configuration file for fastrtps.
-fastrtps_DIR:PATH=/home/propp/ros2_foxy/ros2-linux/share/fastrtps/cmake
+fastrtps_DIR:PATH=/opt/ros/foxy/share/fastrtps/cmake
 
 //The directory containing a CMake configuration file for fastrtps_cmake_module.
-fastrtps_cmake_module_DIR:PATH=/home/propp/ros2_foxy/ros2-linux/share/fastrtps_cmake_module/cmake
+fastrtps_cmake_module_DIR:PATH=/opt/ros/foxy/share/fastrtps_cmake_module/cmake
 
 //Value Computed by CMake
 first_ros_package_BINARY_DIR:STATIC=/home/propp/Independent_Study/ros_workspace/build/first_ros_package
@@ -356,22 +353,22 @@ first_ros_package_BINARY_DIR:STATIC=/home/propp/Independent_Study/ros_workspace/
 first_ros_package_SOURCE_DIR:STATIC=/home/propp/Independent_Study/ros_workspace/src/first_ros_package
 
 //The directory containing a CMake configuration file for foonathan_memory.
-foonathan_memory_DIR:PATH=/home/propp/ros2_foxy/ros2-linux/lib/foonathan_memory/cmake
+foonathan_memory_DIR:PATH=/opt/ros/foxy/lib/foonathan_memory/cmake
 
 //The directory containing a CMake configuration file for geometry_msgs.
-geometry_msgs_DIR:PATH=/home/propp/ros2_foxy/ros2-linux/share/geometry_msgs/cmake
+geometry_msgs_DIR:PATH=/opt/ros/foxy/share/geometry_msgs/cmake
 
 //The directory containing a CMake configuration file for libstatistics_collector.
-libstatistics_collector_DIR:PATH=/home/propp/ros2_foxy/ros2-linux/share/libstatistics_collector/cmake
+libstatistics_collector_DIR:PATH=/opt/ros/foxy/share/libstatistics_collector/cmake
 
 //The directory containing a CMake configuration file for libyaml_vendor.
-libyaml_vendor_DIR:PATH=/home/propp/ros2_foxy/ros2-linux/share/libyaml_vendor/cmake
+libyaml_vendor_DIR:PATH=/opt/ros/foxy/share/libyaml_vendor/cmake
 
 //The directory containing a CMake configuration file for message_filters.
-message_filters_DIR:PATH=/home/propp/ros2_foxy/ros2-linux/share/message_filters/cmake
+message_filters_DIR:PATH=/opt/ros/foxy/share/message_filters/cmake
 
 //The directory containing a CMake configuration file for nav_msgs.
-nav_msgs_DIR:PATH=/home/propp/ros2_foxy/ros2-linux/share/nav_msgs/cmake
+nav_msgs_DIR:PATH=/opt/ros/foxy/share/nav_msgs/cmake
 
 //Path to a library.
 pkgcfg_lib__OPENSSL_crypto:FILEPATH=/usr/lib/x86_64-linux-gnu/libcrypto.so
@@ -379,134 +376,122 @@ pkgcfg_lib__OPENSSL_crypto:FILEPATH=/usr/lib/x86_64-linux-gnu/libcrypto.so
 //Path to a library.
 pkgcfg_lib__OPENSSL_ssl:FILEPATH=/usr/lib/x86_64-linux-gnu/libssl.so
 
-//The directory containing a CMake configuration file for pointcloud_to_laserscan.
-pointcloud_to_laserscan_DIR:PATH=/home/propp/Independent_Study/ros_workspace/build/pointcloud_to_laserscan/ament_cmake_core
-
 //The directory containing a CMake configuration file for rcl.
-rcl_DIR:PATH=/home/propp/ros2_foxy/ros2-linux/share/rcl/cmake
+rcl_DIR:PATH=/opt/ros/foxy/share/rcl/cmake
 
 //The directory containing a CMake configuration file for rcl_action.
-rcl_action_DIR:PATH=/home/propp/ros2_foxy/ros2-linux/share/rcl_action/cmake
+rcl_action_DIR:PATH=/opt/ros/foxy/share/rcl_action/cmake
 
 //The directory containing a CMake configuration file for rcl_interfaces.
-rcl_interfaces_DIR:PATH=/home/propp/ros2_foxy/ros2-linux/share/rcl_interfaces/cmake
+rcl_interfaces_DIR:PATH=/opt/ros/foxy/share/rcl_interfaces/cmake
 
 //The directory containing a CMake configuration file for rcl_logging_spdlog.
-rcl_logging_spdlog_DIR:PATH=/home/propp/ros2_foxy/ros2-linux/share/rcl_logging_spdlog/cmake
+rcl_logging_spdlog_DIR:PATH=/opt/ros/foxy/share/rcl_logging_spdlog/cmake
 
 //The directory containing a CMake configuration file for rcl_yaml_param_parser.
-rcl_yaml_param_parser_DIR:PATH=/home/propp/ros2_foxy/ros2-linux/share/rcl_yaml_param_parser/cmake
+rcl_yaml_param_parser_DIR:PATH=/opt/ros/foxy/share/rcl_yaml_param_parser/cmake
 
 //The directory containing a CMake configuration file for rclcpp.
-rclcpp_DIR:PATH=/home/propp/ros2_foxy/ros2-linux/share/rclcpp/cmake
+rclcpp_DIR:PATH=/opt/ros/foxy/share/rclcpp/cmake
 
 //The directory containing a CMake configuration file for rclcpp_action.
-rclcpp_action_DIR:PATH=/home/propp/ros2_foxy/ros2-linux/share/rclcpp_action/cmake
+rclcpp_action_DIR:PATH=/opt/ros/foxy/share/rclcpp_action/cmake
 
 //The directory containing a CMake configuration file for rclcpp_components.
-rclcpp_components_DIR:PATH=/home/propp/ros2_foxy/ros2-linux/share/rclcpp_components/cmake
+rclcpp_components_DIR:PATH=/opt/ros/foxy/share/rclcpp_components/cmake
 
 //The directory containing a CMake configuration file for rcpputils.
-rcpputils_DIR:PATH=/home/propp/ros2_foxy/ros2-linux/share/rcpputils/cmake
+rcpputils_DIR:PATH=/opt/ros/foxy/share/rcpputils/cmake
 
 //The directory containing a CMake configuration file for rcutils.
-rcutils_DIR:PATH=/home/propp/ros2_foxy/ros2-linux/share/rcutils/cmake
+rcutils_DIR:PATH=/opt/ros/foxy/share/rcutils/cmake
 
 //The directory containing a CMake configuration file for rmw.
-rmw_DIR:PATH=/home/propp/ros2_foxy/ros2-linux/share/rmw/cmake
+rmw_DIR:PATH=/opt/ros/foxy/share/rmw/cmake
 
 //The directory containing a CMake configuration file for rmw_implementation.
-rmw_implementation_DIR:PATH=/home/propp/ros2_foxy/ros2-linux/share/rmw_implementation/cmake
+rmw_implementation_DIR:PATH=/opt/ros/foxy/share/rmw_implementation/cmake
 
 //The directory containing a CMake configuration file for rmw_implementation_cmake.
-rmw_implementation_cmake_DIR:PATH=/home/propp/ros2_foxy/ros2-linux/share/rmw_implementation_cmake/cmake
+rmw_implementation_cmake_DIR:PATH=/opt/ros/foxy/share/rmw_implementation_cmake/cmake
 
 //The directory containing a CMake configuration file for rosgraph_msgs.
-rosgraph_msgs_DIR:PATH=/home/propp/ros2_foxy/ros2-linux/share/rosgraph_msgs/cmake
+rosgraph_msgs_DIR:PATH=/opt/ros/foxy/share/rosgraph_msgs/cmake
 
 //The directory containing a CMake configuration file for rosidl_adapter.
-rosidl_adapter_DIR:PATH=/home/propp/ros2_foxy/ros2-linux/share/rosidl_adapter/cmake
+rosidl_adapter_DIR:PATH=/opt/ros/foxy/share/rosidl_adapter/cmake
 
 //The directory containing a CMake configuration file for rosidl_cmake.
-rosidl_cmake_DIR:PATH=/home/propp/ros2_foxy/ros2-linux/share/rosidl_cmake/cmake
+rosidl_cmake_DIR:PATH=/opt/ros/foxy/share/rosidl_cmake/cmake
 
 //The directory containing a CMake configuration file for rosidl_default_runtime.
-rosidl_default_runtime_DIR:PATH=/home/propp/ros2_foxy/ros2-linux/share/rosidl_default_runtime/cmake
+rosidl_default_runtime_DIR:PATH=/opt/ros/foxy/share/rosidl_default_runtime/cmake
 
 //The directory containing a CMake configuration file for rosidl_generator_c.
-rosidl_generator_c_DIR:PATH=/home/propp/ros2_foxy/ros2-linux/share/rosidl_generator_c/cmake
+rosidl_generator_c_DIR:PATH=/opt/ros/foxy/share/rosidl_generator_c/cmake
 
 //The directory containing a CMake configuration file for rosidl_generator_cpp.
-rosidl_generator_cpp_DIR:PATH=/home/propp/ros2_foxy/ros2-linux/share/rosidl_generator_cpp/cmake
-
-//The directory containing a CMake configuration file for rosidl_generator_dds_idl.
-rosidl_generator_dds_idl_DIR:PATH=/home/propp/ros2_foxy/ros2-linux/share/rosidl_generator_dds_idl/cmake
+rosidl_generator_cpp_DIR:PATH=/opt/ros/foxy/share/rosidl_generator_cpp/cmake
 
 //The directory containing a CMake configuration file for rosidl_runtime_c.
-rosidl_runtime_c_DIR:PATH=/home/propp/ros2_foxy/ros2-linux/share/rosidl_runtime_c/cmake
+rosidl_runtime_c_DIR:PATH=/opt/ros/foxy/share/rosidl_runtime_c/cmake
 
 //The directory containing a CMake configuration file for rosidl_runtime_cpp.
-rosidl_runtime_cpp_DIR:PATH=/home/propp/ros2_foxy/ros2-linux/share/rosidl_runtime_cpp/cmake
+rosidl_runtime_cpp_DIR:PATH=/opt/ros/foxy/share/rosidl_runtime_cpp/cmake
 
 //The directory containing a CMake configuration file for rosidl_typesupport_c.
-rosidl_typesupport_c_DIR:PATH=/home/propp/ros2_foxy/ros2-linux/share/rosidl_typesupport_c/cmake
-
-//The directory containing a CMake configuration file for rosidl_typesupport_connext_c.
-rosidl_typesupport_connext_c_DIR:PATH=/home/propp/ros2_foxy/ros2-linux/share/rosidl_typesupport_connext_c/cmake
-
-//The directory containing a CMake configuration file for rosidl_typesupport_connext_cpp.
-rosidl_typesupport_connext_cpp_DIR:PATH=/home/propp/ros2_foxy/ros2-linux/share/rosidl_typesupport_connext_cpp/cmake
+rosidl_typesupport_c_DIR:PATH=/opt/ros/foxy/share/rosidl_typesupport_c/cmake
 
 //The directory containing a CMake configuration file for rosidl_typesupport_cpp.
-rosidl_typesupport_cpp_DIR:PATH=/home/propp/ros2_foxy/ros2-linux/share/rosidl_typesupport_cpp/cmake
+rosidl_typesupport_cpp_DIR:PATH=/opt/ros/foxy/share/rosidl_typesupport_cpp/cmake
 
 //The directory containing a CMake configuration file for rosidl_typesupport_fastrtps_c.
-rosidl_typesupport_fastrtps_c_DIR:PATH=/home/propp/ros2_foxy/ros2-linux/share/rosidl_typesupport_fastrtps_c/cmake
+rosidl_typesupport_fastrtps_c_DIR:PATH=/opt/ros/foxy/share/rosidl_typesupport_fastrtps_c/cmake
 
 //The directory containing a CMake configuration file for rosidl_typesupport_fastrtps_cpp.
-rosidl_typesupport_fastrtps_cpp_DIR:PATH=/home/propp/ros2_foxy/ros2-linux/share/rosidl_typesupport_fastrtps_cpp/cmake
+rosidl_typesupport_fastrtps_cpp_DIR:PATH=/opt/ros/foxy/share/rosidl_typesupport_fastrtps_cpp/cmake
 
 //The directory containing a CMake configuration file for rosidl_typesupport_interface.
-rosidl_typesupport_interface_DIR:PATH=/home/propp/ros2_foxy/ros2-linux/share/rosidl_typesupport_interface/cmake
+rosidl_typesupport_interface_DIR:PATH=/opt/ros/foxy/share/rosidl_typesupport_interface/cmake
 
 //The directory containing a CMake configuration file for rosidl_typesupport_introspection_c.
-rosidl_typesupport_introspection_c_DIR:PATH=/home/propp/ros2_foxy/ros2-linux/share/rosidl_typesupport_introspection_c/cmake
+rosidl_typesupport_introspection_c_DIR:PATH=/opt/ros/foxy/share/rosidl_typesupport_introspection_c/cmake
 
 //The directory containing a CMake configuration file for rosidl_typesupport_introspection_cpp.
-rosidl_typesupport_introspection_cpp_DIR:PATH=/home/propp/ros2_foxy/ros2-linux/share/rosidl_typesupport_introspection_cpp/cmake
+rosidl_typesupport_introspection_cpp_DIR:PATH=/opt/ros/foxy/share/rosidl_typesupport_introspection_cpp/cmake
 
 //The directory containing a CMake configuration file for sensor_msgs.
-sensor_msgs_DIR:PATH=/home/propp/ros2_foxy/ros2-linux/share/sensor_msgs/cmake
+sensor_msgs_DIR:PATH=/opt/ros/foxy/share/sensor_msgs/cmake
 
 //The directory containing a CMake configuration file for spdlog.
-spdlog_DIR:PATH=/home/propp/ros2_foxy/ros2-linux/lib/cmake/spdlog
+spdlog_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/spdlog
 
 //The directory containing a CMake configuration file for spdlog_vendor.
-spdlog_vendor_DIR:PATH=/home/propp/ros2_foxy/ros2-linux/share/spdlog_vendor/cmake
+spdlog_vendor_DIR:PATH=/opt/ros/foxy/share/spdlog_vendor/cmake
 
 //The directory containing a CMake configuration file for statistics_msgs.
-statistics_msgs_DIR:PATH=/home/propp/ros2_foxy/ros2-linux/share/statistics_msgs/cmake
+statistics_msgs_DIR:PATH=/opt/ros/foxy/share/statistics_msgs/cmake
 
 //The directory containing a CMake configuration file for std_msgs.
-std_msgs_DIR:PATH=/home/propp/ros2_foxy/ros2-linux/share/std_msgs/cmake
+std_msgs_DIR:PATH=/opt/ros/foxy/share/std_msgs/cmake
 
 //The directory containing a CMake configuration file for tf2.
-tf2_DIR:PATH=/home/propp/ros2_foxy/ros2-linux/share/tf2/cmake
+tf2_DIR:PATH=/opt/ros/foxy/share/tf2/cmake
 
 //The directory containing a CMake configuration file for tf2_msgs.
-tf2_msgs_DIR:PATH=/home/propp/ros2_foxy/ros2-linux/share/tf2_msgs/cmake
+tf2_msgs_DIR:PATH=/opt/ros/foxy/share/tf2_msgs/cmake
 
 //The directory containing a CMake configuration file for tf2_ros.
-tf2_ros_DIR:PATH=/home/propp/ros2_foxy/ros2-linux/share/tf2_ros/cmake
+tf2_ros_DIR:PATH=/opt/ros/foxy/share/tf2_ros/cmake
 
 //The directory containing a CMake configuration file for tracetools.
-tracetools_DIR:PATH=/home/propp/ros2_foxy/ros2-linux/share/tracetools/cmake
+tracetools_DIR:PATH=/opt/ros/foxy/share/tracetools/cmake
 
 //The directory containing a CMake configuration file for unique_identifier_msgs.
-unique_identifier_msgs_DIR:PATH=/home/propp/ros2_foxy/ros2-linux/share/unique_identifier_msgs/cmake
+unique_identifier_msgs_DIR:PATH=/opt/ros/foxy/share/unique_identifier_msgs/cmake
 
 //The directory containing a CMake configuration file for yaml.
-yaml_DIR:PATH=/home/propp/ros2_foxy/ros2-linux/cmake
+yaml_DIR:PATH=/opt/ros/foxy/cmake
 
 
 ########################
@@ -664,10 +649,8 @@ CMAKE_STRIP-ADVANCED:INTERNAL=1
 CMAKE_UNAME:INTERNAL=/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
-//Result of TRY_COMPILE
-Connext_GLIBCXX_USE_CXX11_ABI_ZERO:INTERNAL=FALSE
 //Details about finding FastRTPS
-FIND_PACKAGE_MESSAGE_DETAILS_FastRTPS:INTERNAL=[/home/propp/ros2_foxy/ros2-linux/include][/home/propp/ros2_foxy/ros2-linux/lib/libfastrtps.so;/home/propp/ros2_foxy/ros2-linux/lib/libfastcdr.so][v()]
+FIND_PACKAGE_MESSAGE_DETAILS_FastRTPS:INTERNAL=[/opt/ros/foxy/include][/opt/ros/foxy/lib/libfastrtps.so;/opt/ros/foxy/lib/libfastcdr.so][v()]
 //Details about finding OpenSSL
 FIND_PACKAGE_MESSAGE_DETAILS_OpenSSL:INTERNAL=[/usr/lib/x86_64-linux-gnu/libcrypto.so][/usr/include][c ][v1.1.1f()]
 //Details about finding PythonInterp
@@ -719,8 +702,6 @@ _OPENSSL_openssl_INCLUDEDIR:INTERNAL=
 _OPENSSL_openssl_LIBDIR:INTERNAL=
 _OPENSSL_openssl_PREFIX:INTERNAL=
 _OPENSSL_openssl_VERSION:INTERNAL=
-//Index for unique symlink install targets
-__AMENT_CMAKE_SYMLINK_INSTALL_TARGETS_INDEX:INTERNAL=1
 __pkg_config_arguments__OPENSSL:INTERNAL=QUIET;openssl
 __pkg_config_checked__OPENSSL:INTERNAL=1
 //ADVANCED property for variable: pkgcfg_lib__OPENSSL_crypto

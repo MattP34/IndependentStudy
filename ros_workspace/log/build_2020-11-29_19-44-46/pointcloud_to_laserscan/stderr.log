@@ -1,9 +1,0 @@
-In file included from [01m[K/home/propp/Independent_Study/ros_workspace/src/pointcloud_to_laserscan/src/pointcloud_to_laserscan_node.cpp:41[m[K:
-[01m[K/home/propp/Independent_Study/ros_workspace/src/pointcloud_to_laserscan/include/pointcloud_to_laserscan/pointcloud_to_laserscan_node.hpp:49:10:[m[K [01;31m[Kfatal error: [m[Kmessage_filters/subscriber.h: No such file or directory
-   49 | #include [01;31m[K"message_filters/subscriber.h"[m[K
-      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
-compilation terminated.
-make[2]: *** [CMakeFiles/pointcloud_converter.dir/build.make:63: CMakeFiles/pointcloud_converter.dir/src/pointcloud_to_laserscan_node.cpp.o] Error 1
-make[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/pointcloud_converter.dir/all] Error 2
-make[1]: *** Waiting for unfinished jobs....
-make: *** [Makefile:141: all] Error 2

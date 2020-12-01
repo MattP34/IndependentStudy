@@ -1,1 +1,0 @@
-/home/propp/Independent_Study/ros_workspace/build/nav2_msgs/rosidl_typesupport_connext_c/nav2_msgs/srv/clear_costmap_around_robot__rosidl_typesupport_connext_c.h

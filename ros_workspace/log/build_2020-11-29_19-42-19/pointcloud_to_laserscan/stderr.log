@@ -1,6 +1,0 @@
-CMake Error at CMakeLists.txt:70 (install):
-  install TARGETS given target "dummy_pointcloud_publisher" which does not
-  exist.
-
-
-make: *** [Makefile:442: cmake_check_build_system] Error 1

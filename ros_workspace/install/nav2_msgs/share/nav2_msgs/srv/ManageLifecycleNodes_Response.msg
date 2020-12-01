@@ -1,1 +1,0 @@
-/home/propp/Independent_Study/ros_workspace/build/nav2_msgs/rosidl_cmake/srv/ManageLifecycleNodes_Response.msg

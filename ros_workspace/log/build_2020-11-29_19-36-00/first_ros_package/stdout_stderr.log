@@ -1,9 +1,0 @@
-[ 25%] [32mBuilding CXX object CMakeFiles/pointCloudToLaserScan.dir/src/point_cloud_to_laserscan.cpp.o[0m
-[ 75%] Built target odometryTfConverter
-[01m[K/home/propp/Independent_Study/ros_workspace/src/first_ros_package/src/point_cloud_to_laserscan.cpp:23:10:[m[K [01;31m[Kfatal error: [m[Kpointcloud_to_laserscan/pointcloud_to_laserscan_node.hpp: No such file or directory
-   23 | #include [01;31m[K"pointcloud_to_laserscan/pointcloud_to_laserscan_node.hpp"[m[K
-      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
-compilation terminated.
-make[2]: *** [CMakeFiles/pointCloudToLaserScan.dir/build.make:63: CMakeFiles/pointCloudToLaserScan.dir/src/point_cloud_to_laserscan.cpp.o] Error 1
-make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/pointCloudToLaserScan.dir/all] Error 2
-make: *** [Makefile:141: all] Error 2

@@ -386,7 +386,7 @@
                         <horizontal>
                             <!-- Resolution can't be above 16k, see
                             https://bitbucket.org/ignitionrobotics/ign-sensors/issues/8 -->
-                            <samples>10000</samples>
+                            <samples>5</samples>
                             <resolution>0.1</resolution>
                             <min_angle>-3.1459</min_angle>
                             <max_angle>3.1459</max_angle>
@@ -400,7 +400,7 @@
                     <noise>
                         <type>gaussian</type>
                         <mean>0</mean>
-                        <stddev>0.01</stddev>
+                        <stddev>0.00</stddev>
                     </noise>
                 </lidar>
             </sensor>

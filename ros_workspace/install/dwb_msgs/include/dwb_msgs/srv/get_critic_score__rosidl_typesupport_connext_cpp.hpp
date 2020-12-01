@@ -1,1 +1,0 @@
-/home/propp/Independent_Study/ros_workspace/build/dwb_msgs/rosidl_typesupport_connext_cpp/dwb_msgs/srv/get_critic_score__rosidl_typesupport_connext_cpp.hpp

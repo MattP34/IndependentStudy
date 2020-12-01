@@ -1,8 +1,0 @@
-[35m[1mScanning dependencies of target pointcloud_to_laserscan[0m
-[ 20%] Built target dummy_pointcloud_publisher
-[ 40%] Built target pointcloud_to_laserscan_node
-[ 60%] Built target laserscan_to_pointcloud_node
-[ 80%] Built target laserscan_to_pointcloud
-[ 90%] [32mBuilding CXX object CMakeFiles/pointcloud_to_laserscan.dir/src/pointcloud_to_laserscan_node.cpp.o[0m
-[100%] [32m[1mLinking CXX shared library libpointcloud_to_laserscan.so[0m
-[100%] Built target pointcloud_to_laserscan

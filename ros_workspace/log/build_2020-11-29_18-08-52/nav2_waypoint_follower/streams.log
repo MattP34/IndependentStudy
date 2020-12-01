@@ -1,9 +1,0 @@
-[0.035s] Invoking command in '/home/propp/Independent_Study/ros_workspace/build/nav2_waypoint_follower': AMENT_PREFIX_PATH=/home/propp/Independent_Study/ros_workspace/install/nav2_util:/home/propp/Independent_Study/ros_workspace/install/nav2_msgs:/home/propp/Independent_Study/ros_workspace/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/propp/Independent_Study/ros_workspace/install/nav2_util:/home/propp/Independent_Study/ros_workspace/install/nav2_msgs:/home/propp/Independent_Study/ros_workspace/install/nav2_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/propp/Independent_Study/ros_workspace/install/nav2_util/lib:/home/propp/Independent_Study/ros_workspace/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/propp/Independent_Study/ros_workspace/install/nav2_msgs/lib/python3.8/site-packages:/home/propp/Independent_Study/ros_workspace/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/propp/Independent_Study/ros_workspace/build/nav2_waypoint_follower -- -j12 -l12
-[0.108s] [35m[1mScanning dependencies of target waypoint_follower_core[0m
-[0.182s] [ 25%] [32mBuilding CXX object CMakeFiles/waypoint_follower_core.dir/src/waypoint_follower.cpp.o[0m
-[7.834s] [ 50%] [32m[1mLinking CXX shared library libwaypoint_follower_core.so[0m
-[8.093s] [ 50%] Built target waypoint_follower_core
-[8.106s] [35m[1mScanning dependencies of target waypoint_follower[0m
-[8.162s] [ 75%] [32mBuilding CXX object CMakeFiles/waypoint_follower.dir/src/main.cpp.o[0m
-[10.361s] [100%] [32m[1mLinking CXX executable waypoint_follower[0m
-[10.638s] [100%] Built target waypoint_follower

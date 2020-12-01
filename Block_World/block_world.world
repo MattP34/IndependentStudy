@@ -29,7 +29,7 @@
             name="ignition::gazebo::systems::TriggeredPublisher">
             <input type="ignition.msgs.Empty" topic="/start"/>
             <output type="ignition.msgs.Twist" topic="/robot_vel">
-             linear: {x: 0.0}, angular: {z: 0.5}
+             linear: {x: 0.5}, angular: {z: 0.0}
             </output>
         </plugin>
         <include>
