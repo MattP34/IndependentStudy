@@ -410,7 +410,7 @@ pkgcfg_lib__OPENSSL_ssl:FILEPATH=/usr/lib/x86_64-linux-gnu/libssl.so
 pluginlib_DIR:PATH=/opt/ros/foxy/share/pluginlib/cmake
 
 //The directory containing a CMake configuration file for pointcloud_to_laserscan.
-pointcloud_to_laserscan_DIR:PATH=/home/propp/Independent_Study/ros_workspace/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/cmake
+pointcloud_to_laserscan_DIR:PATH=/opt/ros/foxy/share/pointcloud_to_laserscan/cmake
 
 //The directory containing a CMake configuration file for rcl.
 rcl_DIR:PATH=/opt/ros/foxy/share/rcl/cmake

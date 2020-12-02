@@ -29,7 +29,7 @@
             name="ignition::gazebo::systems::TriggeredPublisher">
             <input type="ignition.msgs.Empty" topic="/start"/>
             <output type="ignition.msgs.Twist" topic="/robot_vel">
-             linear: {x: 0.5}, angular: {z: 0.0}
+             linear: {x: 0.5}, angular: {z: 0.5}
             </output>
         </plugin>
         <include>
@@ -96,13 +96,6 @@
                             <size>100 100</size>
                         </plane>
                     </geometry>
-                    <!--<material>
-                        <script>
-                            <uri>model://materials/scripts</uri>
-                            <uri>model://materials/textures</uri>
-                            <name>Grass/Image</name>
-                        </script>
-                    </material>-->
                     <material>
                         <ambient>0.25 0.25 0.25 0.75</ambient>
                         <diffuse>0.25 0.25 0.25 0.75</diffuse>

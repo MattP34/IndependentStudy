@@ -7,12 +7,6 @@
 #IncludeRegexTransform: 
 
 /home/propp/Independent_Study/ros_workspace/src/first_ros_package/src/odometry_to_tf.cpp
-chrono
--
-functional
--
-memory
--
 string
 -
 rclcpp/rclcpp.hpp

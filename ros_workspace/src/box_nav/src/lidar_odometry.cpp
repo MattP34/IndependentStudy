@@ -18,6 +18,7 @@
 #include <string>
 #include <math.h>
 
+
 #include "rclcpp/rclcpp.hpp"
 #include "tf2/LinearMath/Quaternion.h"
 #include "tf2_ros/transform_broadcaster.h"
@@ -28,8 +29,6 @@
 #include "sensor_msgs/point_cloud_conversion.hpp"
 #include <nav_msgs/msg/odometry.hpp>
 #include "std_msgs/msg/string.hpp"
-
-#include <pointcloud_to_laserscan/laserscan_to_pointcloud_node.hpp>
 
 using namespace std::chrono_literals;
 
