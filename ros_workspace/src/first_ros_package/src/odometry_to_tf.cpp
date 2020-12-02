@@ -60,7 +60,7 @@ private:
     geometry_msgs::msg::TransformStamped transformStamped;
     transformStamped.header.stamp.sec = msg->header.stamp.sec;
     transformStamped.header.stamp.nanosec = msg->header.stamp.nanosec;
-    transformStamped.header.frame_id = "map";
+    transformStamped.header.frame_id = "odom";
     transformStamped.child_frame_id = "X1/base_link/front_laser";
     transformStamped.transform.translation.x = msg->pose.pose.position.x;
     transformStamped.transform.translation.y = msg->pose.pose.position.y;
@@ -95,8 +95,8 @@ private:
     transformStamped3.transform.rotation.y = 0;
     transformStamped3.transform.rotation.z = 0;
     transformStamped3.transform.rotation.w = 1;
-    br.sendTransform(transformStamped3);
-    //br.sendTransform(transformStamped);
+    //br.sendTransform(transformStamped3);
+    br.sendTransform(transformStamped);
     //br.sendTransform(transformStamped2);
   }
   std::shared_ptr<rclcpp::Node> brNode;
